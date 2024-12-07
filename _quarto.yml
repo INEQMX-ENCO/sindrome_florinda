@@ -6,8 +6,8 @@ website:
   title: "Contando una Historia"
   favicon: img/mcdlogo.png
   image: img/mcdlogo.png
-  repo-url: https://github.com/INEQMX-ENCO/INEQMX-ENCO-2022
-  repo-actions: [edit, issue, source]
+  repo-url: https://github.com/INEQMX-ENCO/sindrome_florinda
+  repo-actions: [issue, source]
   open-graph: true
   twitter-card: true
   page-navigation: true
