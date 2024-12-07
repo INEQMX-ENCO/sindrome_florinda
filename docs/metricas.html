@@ -70,19 +70,44 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Definición de Métricas: Narrativa de Datos – Contando una Historia">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://jennlg.quarto.pub/ing-caracteristicas/img/mcdlogo.png">
+<meta property="og:image" content="img/mcdlogo.png">
 <meta property="og:site_name" content="Contando una Historia">
-<meta property="og:image:height" content="629">
-<meta property="og:image:width" content="642">
 <meta name="twitter:title" content="Definición de Métricas: Narrativa de Datos – Contando una Historia">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://jennlg.quarto.pub/ing-caracteristicas/img/mcdlogo.png">
-<meta name="twitter:image-height" content="629">
-<meta name="twitter:image-width" content="642">
+<meta name="twitter:image" content="img/mcdlogo.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -143,20 +168,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#métricas-de-impacto-principal" id="toc-métricas-de-impacto-principal" class="nav-link active" data-scroll-target="#métricas-de-impacto-principal"><strong>1. Métricas de Impacto Principal</strong></a>
+  <li><a href="#métricas-de-impacto-principal" id="toc-métricas-de-impacto-principal" class="nav-link active" data-scroll-target="#métricas-de-impacto-principal"><strong>Métricas de Impacto Principal</strong></a>
   <ul class="collapse">
-  <li><a href="#índices-de-percepción-optimista-pesimista-mixta" id="toc-índices-de-percepción-optimista-pesimista-mixta" class="nav-link" data-scroll-target="#índices-de-percepción-optimista-pesimista-mixta"><strong>1.1. Índices de Percepción (Optimista, Pesimista, Mixta)</strong></a></li>
-  <li><a href="#gini-por-categorías-clave" id="toc-gini-por-categorías-clave" class="nav-link" data-scroll-target="#gini-por-categorías-clave"><strong>1.2. GINI por Categorías Clave</strong></a></li>
+  <li><a href="#índices-de-percepción-optimista-pesimista-y-mixta" id="toc-índices-de-percepción-optimista-pesimista-y-mixta" class="nav-link" data-scroll-target="#índices-de-percepción-optimista-pesimista-y-mixta"><strong>Índices de Percepción Optimista, Pesimista y Mixta</strong></a></li>
+  <li><a href="#gini-por-categorías-clave" id="toc-gini-por-categorías-clave" class="nav-link" data-scroll-target="#gini-por-categorías-clave"><strong>GINI por Categorías Clave</strong></a></li>
   </ul></li>
-  <li><a href="#métricas-de-contexto-y-comparación" id="toc-métricas-de-contexto-y-comparación" class="nav-link" data-scroll-target="#métricas-de-contexto-y-comparación"><strong>2. Métricas de Contexto y Comparación</strong></a>
+  <li><a href="#métricas-de-contexto-y-comparación" id="toc-métricas-de-contexto-y-comparación" class="nav-link" data-scroll-target="#métricas-de-contexto-y-comparación"><strong>Métricas de Contexto y Comparación</strong></a>
   <ul class="collapse">
-  <li><a href="#promedio-general-de-respuestas-por-pregunta" id="toc-promedio-general-de-respuestas-por-pregunta" class="nav-link" data-scroll-target="#promedio-general-de-respuestas-por-pregunta"><strong>2.1. Promedio General de Respuestas por Pregunta</strong></a></li>
-  <li><a href="#rango-de-respuestas" id="toc-rango-de-respuestas" class="nav-link" data-scroll-target="#rango-de-respuestas"><strong>2.2. Rango de Respuestas</strong></a></li>
-  </ul></li>
-  <li><a href="#métricas-de-profundización" id="toc-métricas-de-profundización" class="nav-link" data-scroll-target="#métricas-de-profundización"><strong>3. Métricas de Profundización</strong></a>
-  <ul class="collapse">
-  <li><a href="#claves-de-presas-y-sus-niveles-de-almacenamiento" id="toc-claves-de-presas-y-sus-niveles-de-almacenamiento" class="nav-link" data-scroll-target="#claves-de-presas-y-sus-niveles-de-almacenamiento"><strong>3.1. Claves de Presas y Sus Niveles de Almacenamiento</strong></a></li>
-  <li><a href="#categorías-de-gini-en-función-de-agrupaciones-temáticas" id="toc-categorías-de-gini-en-función-de-agrupaciones-temáticas" class="nav-link" data-scroll-target="#categorías-de-gini-en-función-de-agrupaciones-temáticas"><strong>3.2. Categorías de GINI en Función de Agrupaciones Temáticas</strong></a></li>
+  <li><a href="#promedio-general-de-respuestas-por-pregunta" id="toc-promedio-general-de-respuestas-por-pregunta" class="nav-link" data-scroll-target="#promedio-general-de-respuestas-por-pregunta"><strong>Promedio General de Respuestas por Pregunta</strong></a></li>
+  <li><a href="#rango-de-respuestas" id="toc-rango-de-respuestas" class="nav-link" data-scroll-target="#rango-de-respuestas"><strong>Rango de Respuestas</strong></a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/blob/main/metricas.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div></nav>
@@ -185,62 +205,70 @@ ul.task-list li input[type="checkbox"] {
 
 <p>A continuación, se presenta una lista jerárquica de métricas organizadas de lo más relevante a lo contextual, orientadas a construir una narrativa clara y efectiva sobre los datos analizados.</p>
 <section id="métricas-de-impacto-principal" class="level2">
-<h2 class="anchored" data-anchor-id="métricas-de-impacto-principal"><strong>1. Métricas de Impacto Principal</strong></h2>
+<h2 class="anchored" data-anchor-id="métricas-de-impacto-principal"><strong>Métricas de Impacto Principal</strong></h2>
 <p>Estas métricas representan el núcleo de la narrativa y destacan los resultados clave:</p>
-<section id="índices-de-percepción-optimista-pesimista-mixta" class="level3">
-<h3 class="anchored" data-anchor-id="índices-de-percepción-optimista-pesimista-mixta"><strong>1.1. Índices de Percepción (Optimista, Pesimista, Mixta)</strong></h3>
+<section id="índices-de-percepción-optimista-pesimista-y-mixta" class="level3">
+<h3 class="anchored" data-anchor-id="índices-de-percepción-optimista-pesimista-y-mixta"><strong>Índices de Percepción Optimista, Pesimista y Mixta</strong></h3>
 <ul>
 <li><p><strong>Definición</strong>: Promedios ponderados de respuestas a preguntas clasificadas según rangos de GINI para agrupar percepciones.</p></li>
+<li><p><strong>Fórmula:</strong></p>
+<p><span class="math display">\[
+\text{índice} = \frac{\sum_{i=1}^n \text{Ponderación}_i \cdot \text{Respuesta}_i}{\sum_{i=1}^n \text{Ponderación}_i}
+\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><p>Ponderación<span class="math inline">\(_i\)</span>: Peso asignado según el rango GINI.</p></li>
+<li><p>Respuesta<span class="math inline">\(_i\)</span>: Valor de la respuesta de la <span class="math inline">\(i-\)</span>ésima pregunta.</p></li>
+<li><p><span class="math inline">\(n\)</span>: Total de preguntas incluidas en la categoría.</p></li>
+</ul></li>
 <li><p><strong>Uso</strong>: Determinan cómo se perciben los temas críticos desde una perspectiva global.</p></li>
 <li><p><strong>Importancia</strong>: Establecen los ejes principales del análisis y las narrativas de cambio o estabilidad en las percepciones.</p></li>
 </ul>
 </section>
 <section id="gini-por-categorías-clave" class="level3">
-<h3 class="anchored" data-anchor-id="gini-por-categorías-clave"><strong>1.2. GINI por Categorías Clave</strong></h3>
+<h3 class="anchored" data-anchor-id="gini-por-categorías-clave"><strong>GINI por Categorías Clave</strong></h3>
 <ul>
 <li><p><strong>Definición</strong>: Medida de desigualdad en la distribución de respuestas en preguntas categorizadas.</p></li>
+<li><p><strong>Fórmula:</strong></p>
+<p><span class="math display">\[
+\text{GINI} = \frac{\sum_{i=1}^n \sum_{j=1}^n \left| \text{Respuesta}_i - \text{Respuesta}_j \right|}{2n^2 \cdot \mu}
+\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><p><span class="math inline">\(\text{Respuesta}_i, \text{Respuesta}_j\)</span>: Respuestas individuales.</p></li>
+<li><p><span class="math inline">\(\mu\)</span>: Media de las respuestas.</p></li>
+<li><p><span class="math inline">\(n\)</span>: Número total de respuestas.</p></li>
+</ul></li>
 <li><p><strong>Uso</strong>: Identifica áreas de mayor dispersión o consenso en las respuestas.</p></li>
 <li><p><strong>Importancia</strong>: Proporciona contexto sobre la homogeneidad o heterogeneidad de las percepciones.</p></li>
 </ul>
 </section>
 </section>
 <section id="métricas-de-contexto-y-comparación" class="level2">
-<h2 class="anchored" data-anchor-id="métricas-de-contexto-y-comparación"><strong>2. Métricas de Contexto y Comparación</strong></h2>
+<h2 class="anchored" data-anchor-id="métricas-de-contexto-y-comparación"><strong>Métricas de Contexto y Comparación</strong></h2>
 <p>Estas métricas brindan información adicional que complementa los resultados principales y ayudan a situar los hallazgos en un marco más amplio.</p>
 <section id="promedio-general-de-respuestas-por-pregunta" class="level3">
-<h3 class="anchored" data-anchor-id="promedio-general-de-respuestas-por-pregunta"><strong>2.1. Promedio General de Respuestas por Pregunta</strong></h3>
+<h3 class="anchored" data-anchor-id="promedio-general-de-respuestas-por-pregunta"><strong>Promedio General de Respuestas por Pregunta</strong></h3>
 <ul>
 <li><p><strong>Definición</strong>: Media simple de las respuestas para cada pregunta.</p></li>
+<li><p><strong>Fórmula</strong>:</p>
+<p><span class="math display">\[
+\text{Promedio}= \frac{\sum_{i=1}^n \text{Respuesta}_i}{n}
+\]</span></p></li>
 <li><p><strong>Uso</strong>: Ayuda a identificar tendencias generales en el comportamiento o percepción de los encuestados.</p></li>
 <li><p><strong>Importancia</strong>: Refuerza los índices principales al contrastar tendencias generales y específicas.</p></li>
 </ul>
 </section>
 <section id="rango-de-respuestas" class="level3">
-<h3 class="anchored" data-anchor-id="rango-de-respuestas"><strong>2.2. Rango de Respuestas</strong></h3>
+<h3 class="anchored" data-anchor-id="rango-de-respuestas"><strong>Rango de Respuestas</strong></h3>
 <ul>
 <li><p><strong>Definición</strong>: Diferencia entre los valores mínimo y máximo de las respuestas por pregunta.</p></li>
+<li><p><strong>Fórmula</strong>:</p>
+<p><span class="math display">\[
+\text{Rango} = \text{Máximo}(\text{Respuestas})-\text{Mínimo}(\text{Respuestas})
+\]</span></p></li>
 <li><p><strong>Uso</strong>: Evalúa la amplitud de las opiniones o percepciones en diferentes temas.</p></li>
 <li><p><strong>Importancia</strong>: Sirve como indicador del nivel de variabilidad en las respuestas.</p></li>
-</ul>
-</section>
-</section>
-<section id="métricas-de-profundización" class="level2">
-<h2 class="anchored" data-anchor-id="métricas-de-profundización"><strong>3. Métricas de Profundización</strong></h2>
-<p>Estas métricas proporcionan detalles que permiten explorar temas específicos más a fondo y realizar análisis detallados.</p>
-<section id="claves-de-presas-y-sus-niveles-de-almacenamiento" class="level3">
-<h3 class="anchored" data-anchor-id="claves-de-presas-y-sus-niveles-de-almacenamiento"><strong>3.1. Claves de Presas y Sus Niveles de Almacenamiento</strong></h3>
-<ul>
-<li><p><strong>Definición</strong>: Datos sobre niveles de almacenamiento de agua asociados a claves específicas (‘LCDSO’, ‘PECSO’, etc.).</p></li>
-<li><p><strong>Uso</strong>: Relaciona variables de percepción con datos ambientales o geográficos específicos.</p></li>
-<li><p><strong>Importancia</strong>: Conecta percepciones sociales con datos objetivos del entorno.</p></li>
-</ul>
-</section>
-<section id="categorías-de-gini-en-función-de-agrupaciones-temáticas" class="level3">
-<h3 class="anchored" data-anchor-id="categorías-de-gini-en-función-de-agrupaciones-temáticas"><strong>3.2. Categorías de GINI en Función de Agrupaciones Temáticas</strong></h3>
-<ul>
-<li><p><strong>Definición</strong>: Asignación de rangos de GINI a temas específicos (e.g., sostenibilidad, economía).</p></li>
-<li><p><strong>Uso</strong>: Identifica si ciertos temas tienen mayor consenso o polarización.</p></li>
-<li><p><strong>Importancia</strong>: Facilita análisis temáticos en profundidad.</p></li>
 </ul>
 
 
@@ -482,7 +510,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/jennlg\.quarto\.pub\/ing-caracteristicas");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

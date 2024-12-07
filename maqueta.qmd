@@ -2,3 +2,5 @@
 title: "Maqueta"
 jupyter: python3
 ---
+
+[![](img/maqueta.png){fig-align="center"}](https://interactive-map.streamlit.app/)

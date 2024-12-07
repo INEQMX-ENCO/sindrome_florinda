@@ -70,19 +70,44 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Storyboard: El síndrome de Doña Florinda – Contando una Historia">
 <meta property="og:description" content="Cómo la desigualdad y las expectativas moldean la percepción económica en México">
-<meta property="og:image" content="https://jennlg.quarto.pub/ing-caracteristicas/img/mcdlogo.png">
+<meta property="og:image" content="img/mcdlogo.png">
 <meta property="og:site_name" content="Contando una Historia">
-<meta property="og:image:height" content="629">
-<meta property="og:image:width" content="642">
 <meta name="twitter:title" content="Storyboard: El síndrome de Doña Florinda – Contando una Historia">
 <meta name="twitter:description" content="Cómo la desigualdad y las expectativas moldean la percepción económica en México">
-<meta name="twitter:image" content="https://jennlg.quarto.pub/ing-caracteristicas/img/mcdlogo.png">
-<meta name="twitter:image-height" content="629">
-<meta name="twitter:image-width" content="642">
+<meta name="twitter:image" content="img/mcdlogo.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -147,20 +172,19 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#datos-y-agrupación" id="toc-datos-y-agrupación" class="nav-link" data-scroll-target="#datos-y-agrupación">Datos y agrupación</a></li>
   <li><a href="#historias-detrás-de-los-clústers" id="toc-historias-detrás-de-los-clústers" class="nav-link" data-scroll-target="#historias-detrás-de-los-clústers">Historias detrás de los clústers</a>
   <ul class="collapse">
-  <li><a href="#clúster-1-clase-media-alta-con-percepciones-tensas" id="toc-clúster-1-clase-media-alta-con-percepciones-tensas" class="nav-link" data-scroll-target="#clúster-1-clase-media-alta-con-percepciones-tensas"><strong>Clúster 1:</strong> Clase media alta con percepciones tensas</a></li>
-  <li><a href="#clúster-2-la-élite-económica-y-sus-altas-expectativas" id="toc-clúster-2-la-élite-económica-y-sus-altas-expectativas" class="nav-link" data-scroll-target="#clúster-2-la-élite-económica-y-sus-altas-expectativas"><strong>Clúster 2:</strong> La élite económica y sus altas expectativas</a></li>
-  <li><a href="#clúster-3-clase-trabajadora-atrapada-en-desigualdad" id="toc-clúster-3-clase-trabajadora-atrapada-en-desigualdad" class="nav-link" data-scroll-target="#clúster-3-clase-trabajadora-atrapada-en-desigualdad"><strong>Clúster 3:</strong> Clase trabajadora atrapada en desigualdad</a></li>
-  <li><a href="#clúster-4-subsistencia-y-expectativas-modestas" id="toc-clúster-4-subsistencia-y-expectativas-modestas" class="nav-link" data-scroll-target="#clúster-4-subsistencia-y-expectativas-modestas"><strong>Clúster 4:</strong> Subsistencia y expectativas modestas</a></li>
+  <li><a href="#clúster-1-municipios-de-la-clase-media-alta-con-percepción-positiva" id="toc-clúster-1-municipios-de-la-clase-media-alta-con-percepción-positiva" class="nav-link" data-scroll-target="#clúster-1-municipios-de-la-clase-media-alta-con-percepción-positiva"><strong>Clúster 1: Municipios de la clase media alta con percepción positiva</strong></a></li>
+  <li><a href="#clúster-2-municipios-de-la-élite-económica-con-altas-expectativas" id="toc-clúster-2-municipios-de-la-élite-económica-con-altas-expectativas" class="nav-link" data-scroll-target="#clúster-2-municipios-de-la-élite-económica-con-altas-expectativas"><strong>Clúster 2: Municipios de la élite económica con altas expectativas</strong></a></li>
+  <li><a href="#clúster-3-municipios-de-clase-trabajadora-atrapados-en-desigualdad-moderada" id="toc-clúster-3-municipios-de-clase-trabajadora-atrapados-en-desigualdad-moderada" class="nav-link" data-scroll-target="#clúster-3-municipios-de-clase-trabajadora-atrapados-en-desigualdad-moderada"><strong>Clúster 3: Municipios de clase trabajadora atrapados en desigualdad moderada</strong></a></li>
+  <li><a href="#clúster-4-municipios-en-la-base-económica-con-expectativas-modestas" id="toc-clúster-4-municipios-en-la-base-económica-con-expectativas-modestas" class="nav-link" data-scroll-target="#clúster-4-municipios-en-la-base-económica-con-expectativas-modestas"><strong>Clúster 4: Municipios en la base económica con expectativas modestas</strong></a></li>
   </ul></li>
   <li><a href="#descubrimientos-regiones-y-desigualdad" id="toc-descubrimientos-regiones-y-desigualdad" class="nav-link" data-scroll-target="#descubrimientos-regiones-y-desigualdad">Descubrimientos: Regiones y desigualdad</a>
   <ul class="collapse">
-  <li><a href="#región-centro-crecimiento-económico-pero-sin-mejora-en-el-consumo" id="toc-región-centro-crecimiento-económico-pero-sin-mejora-en-el-consumo" class="nav-link" data-scroll-target="#región-centro-crecimiento-económico-pero-sin-mejora-en-el-consumo"><strong>Región Centro:</strong> Crecimiento económico, pero sin mejora en el consumo</a></li>
+  <li><a href="#región-centro" id="toc-región-centro" class="nav-link" data-scroll-target="#región-centro"><strong>Región Centro</strong></a></li>
+  <li><a href="#región-centro-occidente" id="toc-región-centro-occidente" class="nav-link" data-scroll-target="#región-centro-occidente"><strong>Región Centro-Occidente</strong></a></li>
+  <li><a href="#región-norte" id="toc-región-norte" class="nav-link" data-scroll-target="#región-norte"><strong>Región Norte</strong></a></li>
   <li><a href="#municipios-destacados-cambios-en-el-gini" id="toc-municipios-destacados-cambios-en-el-gini" class="nav-link" data-scroll-target="#municipios-destacados-cambios-en-el-gini"><strong>Municipios destacados: Cambios en el GINI</strong></a></li>
   </ul></li>
-  <li><a href="#conclusión-más-allá-de-los-ingresos" id="toc-conclusión-más-allá-de-los-ingresos" class="nav-link" data-scroll-target="#conclusión-más-allá-de-los-ingresos">Conclusión: Más allá de los ingresos</a>
-  <ul class="collapse">
-  <li><a href="#hallazgos-clave" id="toc-hallazgos-clave" class="nav-link" data-scroll-target="#hallazgos-clave"><strong>Hallazgos clave:</strong></a></li>
-  </ul></li>
+  <li><a href="#conclusión-el-bienestar-percibido-está-enraizado-en-el-contexto-más-que-en-el-ingreso-absoluto" id="toc-conclusión-el-bienestar-percibido-está-enraizado-en-el-contexto-más-que-en-el-ingreso-absoluto" class="nav-link" data-scroll-target="#conclusión-el-bienestar-percibido-está-enraizado-en-el-contexto-más-que-en-el-ingreso-absoluto">Conclusión: <em>El bienestar percibido está enraizado en el contexto más que en el ingreso absoluto</em></a></li>
   <li><a href="#recomendaciones-para-un-méxico-más-justo" id="toc-recomendaciones-para-un-méxico-más-justo" class="nav-link" data-scroll-target="#recomendaciones-para-un-méxico-más-justo">Recomendaciones para un México más justo</a></li>
   <li><a href="#reflexión-final-construyendo-un-méxico-más-equitativo" id="toc-reflexión-final-construyendo-un-méxico-más-equitativo" class="nav-link" data-scroll-target="#reflexión-final-construyendo-un-méxico-más-equitativo">Reflexión Final: Construyendo un México más equitativo</a></li>
   </ul>
@@ -192,6 +216,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="el-problema-detrás-de-las-cifras" class="level2">
 <h2 class="anchored" data-anchor-id="el-problema-detrás-de-las-cifras">El problema detrás de las cifras</h2>
 <p>En México, la economía no se vive de la misma manera en todos los municipios. A pesar de compartir retos como la desigualdad, las percepciones del bienestar económico pueden variar drásticamente según el contexto local. Este fenómeno, conocido como “El síndrome de Doña Florinda”, demuestra que las personas no evalúan su bienestar económico únicamente en función de su ingreso, sino en relación con su entorno y expectativas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://eltransformador.mx/wp-content/uploads/2023/09/Actividad-economica-de-Mexico_istock.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
 <p><strong>Pregunta clave:</strong> ¿Qué determina cómo se percibe la economía?</p>
 </section>
 <section id="datos-y-agrupación" class="level2">
@@ -210,108 +239,203 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Un clúster es un grupo de municipios con características económicas y sociales similares. Esta agrupación nos permite identificar patrones y diferencias clave en cómo los ingresos y la desigualdad afectan las percepciones económicas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://chihuahua.gob.mx/sites/default/atach2/inline-images/Imagen5_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="230"></p>
+</figure>
+</div>
 </div>
 </div>
 </div>
 </section>
 <section id="historias-detrás-de-los-clústers" class="level2">
 <h2 class="anchored" data-anchor-id="historias-detrás-de-los-clústers">Historias detrás de los clústers</h2>
-<section id="clúster-1-clase-media-alta-con-percepciones-tensas" class="level3">
-<h3 class="anchored" data-anchor-id="clúster-1-clase-media-alta-con-percepciones-tensas"><strong>Clúster 1:</strong> Clase media alta con percepciones tensas</h3>
+<section id="clúster-1-municipios-de-la-clase-media-alta-con-percepción-positiva" class="level3">
+<h3 class="anchored" data-anchor-id="clúster-1-municipios-de-la-clase-media-alta-con-percepción-positiva"><strong>Clúster 1: Municipios de la clase media alta con percepción positiva</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://amigocamionero.com.py/wp-content/uploads/2017/08/13861826_ml-960.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="376"></p>
+</figure>
+</div>
 <ul>
-<li><strong>Ingreso:</strong> $82,612 trimestrales.<br>
-</li>
-<li><strong>Desigualdad:</strong> Moderada (GINI: 0.37).<br>
-</li>
-<li><strong>Consumo restringido:</strong> 49.2%.<br>
-<strong>Narrativa:</strong> Municipios económicamente cómodos, pero con presión social para “mantener el nivel”. La comparación con otros limita su satisfacción.</li>
+<li><strong>Ingresos:</strong> $82,612 trimestrales en promedio.</li>
+<li><strong>Desigualdad:</strong> Moderada (GINI: 0.37).</li>
+<li><strong>Características:</strong>
+<ul>
+<li>El 16.8% tiene percepciones económicas negativas.</li>
+<li>El 49.2% enfrenta consumo restringido.</li>
+<li>Consumo positivo (ahorro y gastos no esenciales) alcanza el 20.5%.</li>
+</ul></li>
+<li><strong>Interpretación:</strong>
+<ul>
+<li>Estos municipios tienen economías cómodas, pero los altos estándares de vida generan presión para “mantenerse al nivel”. Las comparaciones sociales limitan la satisfacción económica, incluso en condiciones estables.</li>
+</ul></li>
 </ul>
 <hr>
 </section>
-<section id="clúster-2-la-élite-económica-y-sus-altas-expectativas" class="level3">
-<h3 class="anchored" data-anchor-id="clúster-2-la-élite-económica-y-sus-altas-expectativas"><strong>Clúster 2:</strong> La élite económica y sus altas expectativas</h3>
+<section id="clúster-2-municipios-de-la-élite-económica-con-altas-expectativas" class="level3">
+<h3 class="anchored" data-anchor-id="clúster-2-municipios-de-la-élite-económica-con-altas-expectativas"><strong>Clúster 2: Municipios de la élite económica con altas expectativas</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://antenasanluis.mx/wp-content/uploads/2023/01/amlo-y-carlos-slim-en-washington.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="376"></p>
+</figure>
+</div>
 <ul>
-<li><strong>Ingreso:</strong> $243,672 trimestrales.<br>
-</li>
-<li><strong>Desigualdad:</strong> Alta.<br>
-</li>
-<li><strong>Percepciones negativas:</strong> 24.8% (nacional).<br>
-<strong>Narrativa:</strong> Aunque pertenecen a la élite, los estándares aspiracionales amplifican las tensiones. Pequeños problemas son percibidos como fracasos.</li>
+<li><strong>Ingresos:</strong> $243,672 trimestrales en promedio.</li>
+<li><strong>Desigualdad:</strong> Alta, correlacionada con consumo restringido.</li>
+<li><strong>Características:</strong>
+<ul>
+<li>Percepciones económicas nacionales negativas (24.8%).</li>
+<li>Percepciones personales negativas bajas (13.9%).</li>
+</ul></li>
+<li><strong>Interpretación:</strong>
+<ul>
+<li>Aquí domina la “sociedad aspiracional”. Los habitantes no se comparan con grupos vulnerables, sino con aquellos que tienen más dentro de su misma élite. Esto amplifica las tensiones, y pequeños problemas económicos se perciben como grandes fracasos.</li>
+</ul></li>
 </ul>
 <hr>
 </section>
-<section id="clúster-3-clase-trabajadora-atrapada-en-desigualdad" class="level3">
-<h3 class="anchored" data-anchor-id="clúster-3-clase-trabajadora-atrapada-en-desigualdad"><strong>Clúster 3:</strong> Clase trabajadora atrapada en desigualdad</h3>
+<section id="clúster-3-municipios-de-clase-trabajadora-atrapados-en-desigualdad-moderada" class="level3">
+<h3 class="anchored" data-anchor-id="clúster-3-municipios-de-clase-trabajadora-atrapados-en-desigualdad-moderada"><strong>Clúster 3: Municipios de clase trabajadora atrapados en desigualdad moderada</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.elindependiente.sv/wp-content/uploads/2021/03/clase-trabajadora.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="452"></p>
+</figure>
+</div>
 <ul>
-<li><strong>Ingreso:</strong> $58,372 trimestrales.<br>
-</li>
-<li><strong>Desigualdad:</strong> Moderada (GINI: 0.36).<br>
-</li>
-<li><strong>Consumo restringido:</strong> 49.6%.<br>
-<strong>Narrativa:</strong> Una cultura de esfuerzo colectivo valora pequeñas mejoras económicas, pero la vulnerabilidad estructural frena el progreso.</li>
+<li><strong>Ingresos:</strong> $58,372 trimestrales en promedio.</li>
+<li><strong>Desigualdad:</strong> Moderada (GINI: 0.36).</li>
+<li><strong>Características:</strong>
+<ul>
+<li>El 15.3% tiene percepciones económicas negativas.</li>
+<li>El consumo restringido afecta al 49.6%.</li>
+<li>Pequeñas mejoras en los deciles bajos y medios reducen percepciones negativas.</li>
+</ul></li>
+<li><strong>Interpretación:</strong>
+<ul>
+<li>Estos municipios muestran una cultura de “esfuerzo colectivo”. Valoran las pequeñas mejoras económicas, pero su vulnerabilidad estructural los deja atrapados en un progreso lento y frágil.</li>
+</ul></li>
 </ul>
 <hr>
 </section>
-<section id="clúster-4-subsistencia-y-expectativas-modestas" class="level3">
-<h3 class="anchored" data-anchor-id="clúster-4-subsistencia-y-expectativas-modestas"><strong>Clúster 4:</strong> Subsistencia y expectativas modestas</h3>
+<section id="clúster-4-municipios-en-la-base-económica-con-expectativas-modestas" class="level3">
+<h3 class="anchored" data-anchor-id="clúster-4-municipios-en-la-base-económica-con-expectativas-modestas"><strong>Clúster 4: Municipios en la base económica con expectativas modestas</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://graciasnaturaleza.com/wp-content/uploads/2022/10/agricultura-de-subsistencia-a-1024x743.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="346"></p>
+</figure>
+</div>
 <ul>
-<li><strong>Ingreso:</strong> $41,258 trimestrales.<br>
-</li>
-<li><strong>Desigualdad:</strong> Baja, pero con consumo restringido (63%).<br>
-<strong>Narrativa:</strong> La “subsistencia ajustada” predomina. Las bajas expectativas ayudan a manejar tensiones, pero perpetúan limitaciones estructurales.</li>
+<li><strong>Ingresos:</strong> $41,258 trimestrales en promedio.</li>
+<li><strong>Desigualdad:</strong> Más baja, pero con las tasas más altas de consumo restringido (63%).</li>
+<li><strong>Características:</strong>
+<ul>
+<li>El 23.0% tiene percepciones económicas negativas, el nivel más alto entre los clusters.</li>
+<li>Mejora limitada en percepciones debido a barreras estructurales.</li>
+</ul></li>
+<li><strong>Interpretación:</strong>
+<ul>
+<li>Estos municipios viven en una “subsistencia ajustada”. Las expectativas limitadas ayudan a manejar tensiones, pero perpetúan la falta de progreso.</li>
+</ul></li>
 </ul>
 <hr>
 </section>
 </section>
 <section id="descubrimientos-regiones-y-desigualdad" class="level2">
 <h2 class="anchored" data-anchor-id="descubrimientos-regiones-y-desigualdad">Descubrimientos: Regiones y desigualdad</h2>
-<section id="región-centro-crecimiento-económico-pero-sin-mejora-en-el-consumo" class="level3">
-<h3 class="anchored" data-anchor-id="región-centro-crecimiento-económico-pero-sin-mejora-en-el-consumo"><strong>Región Centro:</strong> Crecimiento económico, pero sin mejora en el consumo</h3>
+<section id="región-centro" class="level3">
+<h3 class="anchored" data-anchor-id="región-centro"><strong>Región Centro</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://image.slidesharecdn.com/planeacionterritorialregioncentro-140902192349-phpapp01/95/planeacion-territorial-region-centro-1-638.jpg?cb=1409685863" class="img-fluid quarto-figure quarto-figure-center figure-img" width="334"></p>
+</figure>
+</div>
 <ul>
-<li><strong>Ingreso:</strong> Creció 17.4% (2018-2022).<br>
-</li>
-<li><strong>Desigualdad:</strong> Estable (GINI: 0.34 a 0.36).<br>
-</li>
-<li><strong>Consumo negativo:</strong> Aún alto (54.5% en 2022).</li>
+<li><strong>Ingresos:</strong> Crecieron un <span class="math inline">\(17.4\%\)</span> (de <span class="math inline">\(\$53,720\)</span> en 2018 a <span class="math inline">\(\$63,082\)</span> en 2022).</li>
+<li><strong>Desigualdad:</strong> Estable (GINI: 0.34 a 0.36).</li>
+<li><strong>Consumo:</strong> A pesar de los ingresos crecientes, el consumo negativo sigue siendo alto (<span class="math inline">\(54.5\%\)</span> en 2022).</li>
 </ul>
+<hr>
+</section>
+<section id="región-centro-occidente" class="level3">
+<h3 class="anchored" data-anchor-id="región-centro-occidente"><strong>Región Centro-Occidente</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://th.bing.com/th/id/R.4539ba083626c0f17e679b51a6f6481d?rik=TRIExmFqCE2lJA&amp;riu=http%3a%2f%2fwww.centroccidente.org.mx%2faccarco%2fimgs%2festados.png&amp;ehk=MuBAYQ%2b997X4LrtZXfGZCAICQdoehZ3ii37qS%2fMZSm8%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li><strong>Ingresos:</strong> Crecimiento más moderado.</li>
+<li><strong>Consumo:</strong> Menores niveles de consumo negativo (<span class="math inline">\(43.4\%\)</span> en 2020).</li>
+<li><strong>Estabilidad:</strong> Percepciones económicas nacionales consistentemente moderadas.</li>
+</ul>
+<hr>
+</section>
+<section id="región-norte" class="level3">
+<h3 class="anchored" data-anchor-id="región-norte"><strong>Región Norte</strong></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://steelcab-mueblesparalaboratorio.com/wp-content/uploads/2023/07/mapa-zonas-oficinas-norte.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="369"></p>
+</figure>
+</div>
+<ul>
+<li><strong>Ingresos y Consumo:</strong> Menor incertidumbre económica personal (<span class="math inline">\(&lt;2\%\)</span>) y mayor confianza económica local, como en Ramos Arizpe.</li>
+</ul>
+<hr>
 </section>
 <section id="municipios-destacados-cambios-en-el-gini" class="level3">
 <h3 class="anchored" data-anchor-id="municipios-destacados-cambios-en-el-gini"><strong>Municipios destacados: Cambios en el GINI</strong></h3>
-<section id="crecimiento-de-desigualdad-cuautitlán-izcalli" class="level4">
-<h4 class="anchored" data-anchor-id="crecimiento-de-desigualdad-cuautitlán-izcalli"><strong>Crecimiento de desigualdad: Cuautitlán Izcalli</strong></h4>
-<ul>
-<li><strong>GINI:</strong> +0.313 (2018-2020).<br>
-</li>
-<li><strong>Brecha entre deciles:</strong> $290,434.<br>
-</li>
-<li><strong>Percepciones negativas:</strong> Consumo restringido refuerza tensiones.</li>
-</ul>
-</section>
-<section id="decrecimiento-de-desigualdad-tecámac" class="level4">
-<h4 class="anchored" data-anchor-id="decrecimiento-de-desigualdad-tecámac"><strong>Decrecimiento de desigualdad: Tecámac</strong></h4>
-<ul>
-<li><strong>GINI:</strong> -0.206 (2018-2022).<br>
-</li>
-<li><strong>Brecha entre deciles:</strong> $84,382.<br>
-</li>
-<li><strong>Impacto positivo:</strong> Mejoras en los deciles bajos reducen percepciones negativas.</li>
-</ul>
-</section>
-</section>
-</section>
-<section id="conclusión-más-allá-de-los-ingresos" class="level2">
-<h2 class="anchored" data-anchor-id="conclusión-más-allá-de-los-ingresos">Conclusión: Más allá de los ingresos</h2>
-<p>La percepción del bienestar económico no está determinada únicamente por el ingreso absoluto, sino por el contexto y las expectativas.</p>
-<section id="hallazgos-clave" class="level3">
-<h3 class="anchored" data-anchor-id="hallazgos-clave"><strong>Hallazgos clave:</strong></h3>
+<section id="crecimiento-del-gini-mayor-desigualdad" class="level4">
+<h4 class="anchored" data-anchor-id="crecimiento-del-gini-mayor-desigualdad"><strong>Crecimiento del GINI: Mayor desigualdad</strong></h4>
 <ol type="1">
-<li><strong>Ricos también lloran:</strong> En el clúster 2, expectativas elevadas generan insatisfacción.<br>
-</li>
-<li><strong>Expectativas ajustadas:</strong> En el clúster 4, las personas manejan mejor las dificultades.<br>
-</li>
-<li><strong>Impacto de la desigualdad:</strong> Brechas extremas amplifican percepciones negativas en todos los clústers.</li>
+<li><strong>Cuautitlán Izcalli (+0.313, Clúster 2):</strong>
+<ul>
+<li><strong>Región:</strong> Centro.</li>
+<li><strong>Desigualdad:</strong> Brecha extrema entre decil 10 y decil 1: <span class="math inline">\(\$290,434\)</span>.</li>
+<li><strong>Percepciones:</strong> Moderadas, con consumo restringido (<span class="math inline">\(49.78\%\)</span>).</li>
+<li><strong>Interpretación:</strong> La alta concentración de riqueza amplifica tensiones económicas.</li>
+</ul></li>
+<li><strong>Acolman (+0.181, Clúster 4):</strong>
+<ul>
+<li><strong>Región:</strong> Centro.</li>
+<li><strong>Desigualdad:</strong> Brecha más baja: <span class="math inline">\(\$79,985\)</span>.</li>
+<li><strong>Consumo:</strong> <span class="math inline">\(66.95\%\)</span> enfrenta restricciones.</li>
+<li><strong>Interpretación:</strong> Las expectativas bajas no protegen completamente de percepciones negativas.</li>
+</ul></li>
 </ol>
+<hr>
 </section>
+<section id="decrecimiento-del-gini-mayor-equidad" class="level4">
+<h4 class="anchored" data-anchor-id="decrecimiento-del-gini-mayor-equidad"><strong>Decrecimiento del GINI: Mayor equidad</strong></h4>
+<ol type="1">
+<li><strong>Tecámac (-0.206, Clúster 3):</strong>
+<ul>
+<li><strong>Región:</strong> Centro.</li>
+<li><strong>Desigualdad:</strong> Brecha menor entre deciles (10 vs.&nbsp;1): <span class="math inline">\(\$84,382\)</span>.</li>
+<li><strong>Percepciones:</strong> Altas (<span class="math inline">\(38.22\%\)</span> positivas).</li>
+<li><strong>Interpretación:</strong> Las mejoras en distribución benefician directamente a los deciles bajos y medios.</li>
+</ul></li>
+<li><strong>San Pedro Garza García (-0.208, Clúster 1):</strong>
+<ul>
+<li><strong>Región:</strong> Norte.</li>
+<li><strong>Desigualdad:</strong> Brecha alta: <span class="math inline">\(\$235,056\)</span>.</li>
+<li><strong>Consumo:</strong> Más positivo que restrictivo (<span class="math inline">\(26.70\%\)</span> vs.&nbsp;<span class="math inline">\(48.46\%\)</span>).</li>
+<li><strong>Interpretación:</strong> Aunque mejora la equidad, persisten tensiones internas debido a desigualdad extrema.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+</section>
+</section>
+<section id="conclusión-el-bienestar-percibido-está-enraizado-en-el-contexto-más-que-en-el-ingreso-absoluto" class="level2">
+<h2 class="anchored" data-anchor-id="conclusión-el-bienestar-percibido-está-enraizado-en-el-contexto-más-que-en-el-ingreso-absoluto">Conclusión: <em>El bienestar percibido está enraizado en el contexto más que en el ingreso absoluto</em></h2>
+<p>La percepción del bienestar económico no depende solo de los ingresos, sino de cómo las personas se comparan con su entorno y ajustan sus expectativas.</p>
+<ol type="1">
+<li><strong>Los municipios ricos también lloran:</strong> En el clúster 2, las expectativas elevadas generan insatisfacción, incluso en contextos privilegiados.</li>
+<li><strong>Expectativas ajustadas en los más pobres:</strong> En el clúster 4, las personas manejan mejor las dificultades gracias a expectativas más bajas.</li>
+<li><strong>La clase trabajadora valora cada mejora:</strong> En el clúster 3, las intervenciones económicas en los deciles bajos y medios generan impactos positivos desproporcionados.</li>
+<li><strong>La desigualdad amplifica tensiones:</strong> En todos los clústers, las brechas extremas entre deciles aumentan las percepciones negativas.</li>
+</ol>
 </section>
 <section id="recomendaciones-para-un-méxico-más-justo" class="level2">
 <h2 class="anchored" data-anchor-id="recomendaciones-para-un-méxico-más-justo">Recomendaciones para un México más justo</h2>
@@ -567,7 +691,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/jennlg\.quarto\.pub\/ing-caracteristicas");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

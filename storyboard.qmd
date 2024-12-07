@@ -8,6 +8,8 @@ jupyter: python3
 
 En México, la economía no se vive de la misma manera en todos los municipios. A pesar de compartir retos como la desigualdad, las percepciones del bienestar económico pueden variar drásticamente según el contexto local. Este fenómeno, conocido como "El síndrome de Doña Florinda", demuestra que las personas no evalúan su bienestar económico únicamente en función de su ingreso, sino en relación con su entorno y expectativas.
 
+![](https://eltransformador.mx/wp-content/uploads/2023/09/Actividad-economica-de-Mexico_istock.jpg){fig-align="center" width="500"}
+
 **Pregunta clave:** ¿Qué determina cómo se percibe la economía?
 
 ## Datos y agrupación
@@ -18,76 +20,140 @@ Para responder esta pregunta, analizamos datos de ingreso, desigualdad (GINI), p
 ## ¿Qué es un clúster?
 
 Un clúster es un grupo de municipios con características económicas y sociales similares. Esta agrupación nos permite identificar patrones y diferencias clave en cómo los ingresos y la desigualdad afectan las percepciones económicas.
+
+![](https://chihuahua.gob.mx/sites/default/atach2/inline-images/Imagen5_2.png){fig-align="center" width="230"}
 :::
 
 ## Historias detrás de los clústers
 
-### **Clúster 1:** Clase media alta con percepciones tensas
+### **Clúster 1: Municipios de la clase media alta con percepción positiva**
 
--   **Ingreso:** \$82,612 trimestrales.\
--   **Desigualdad:** Moderada (GINI: 0.37).\
--   **Consumo restringido:** 49.2%.\
-    **Narrativa:** Municipios económicamente cómodos, pero con presión social para "mantener el nivel". La comparación con otros limita su satisfacción.
+![](https://amigocamionero.com.py/wp-content/uploads/2017/08/13861826_ml-960.jpg){fig-align="center" width="376"}
 
-------------------------------------------------------------------------
-
-### **Clúster 2:** La élite económica y sus altas expectativas
-
--   **Ingreso:** \$243,672 trimestrales.\
--   **Desigualdad:** Alta.\
--   **Percepciones negativas:** 24.8% (nacional).\
-    **Narrativa:** Aunque pertenecen a la élite, los estándares aspiracionales amplifican las tensiones. Pequeños problemas son percibidos como fracasos.
+-   **Ingresos:** \$82,612 trimestrales en promedio.
+-   **Desigualdad:** Moderada (GINI: 0.37).
+-   **Características:**
+    -   El 16.8% tiene percepciones económicas negativas.
+    -   El 49.2% enfrenta consumo restringido.
+    -   Consumo positivo (ahorro y gastos no esenciales) alcanza el 20.5%.
+-   **Interpretación:**
+    -   Estos municipios tienen economías cómodas, pero los altos estándares de vida generan presión para "mantenerse al nivel". Las comparaciones sociales limitan la satisfacción económica, incluso en condiciones estables.
 
 ------------------------------------------------------------------------
 
-### **Clúster 3:** Clase trabajadora atrapada en desigualdad
+### **Clúster 2: Municipios de la élite económica con altas expectativas**
 
--   **Ingreso:** \$58,372 trimestrales.\
--   **Desigualdad:** Moderada (GINI: 0.36).\
--   **Consumo restringido:** 49.6%.\
-    **Narrativa:** Una cultura de esfuerzo colectivo valora pequeñas mejoras económicas, pero la vulnerabilidad estructural frena el progreso.
+![](https://antenasanluis.mx/wp-content/uploads/2023/01/amlo-y-carlos-slim-en-washington.jpg){fig-align="center" width="376"}
+
+-   **Ingresos:** \$243,672 trimestrales en promedio.
+-   **Desigualdad:** Alta, correlacionada con consumo restringido.
+-   **Características:**
+    -   Percepciones económicas nacionales negativas (24.8%).
+    -   Percepciones personales negativas bajas (13.9%).
+-   **Interpretación:**
+    -   Aquí domina la "sociedad aspiracional". Los habitantes no se comparan con grupos vulnerables, sino con aquellos que tienen más dentro de su misma élite. Esto amplifica las tensiones, y pequeños problemas económicos se perciben como grandes fracasos.
 
 ------------------------------------------------------------------------
 
-### **Clúster 4:** Subsistencia y expectativas modestas
+### **Clúster 3: Municipios de clase trabajadora atrapados en desigualdad moderada**
 
--   **Ingreso:** \$41,258 trimestrales.\
--   **Desigualdad:** Baja, pero con consumo restringido (63%).\
-    **Narrativa:** La "subsistencia ajustada" predomina. Las bajas expectativas ayudan a manejar tensiones, pero perpetúan limitaciones estructurales.
+![](https://www.elindependiente.sv/wp-content/uploads/2021/03/clase-trabajadora.jpg){fig-align="center" width="452"}
+
+-   **Ingresos:** \$58,372 trimestrales en promedio.
+-   **Desigualdad:** Moderada (GINI: 0.36).
+-   **Características:**
+    -   El 15.3% tiene percepciones económicas negativas.
+    -   El consumo restringido afecta al 49.6%.
+    -   Pequeñas mejoras en los deciles bajos y medios reducen percepciones negativas.
+-   **Interpretación:**
+    -   Estos municipios muestran una cultura de "esfuerzo colectivo". Valoran las pequeñas mejoras económicas, pero su vulnerabilidad estructural los deja atrapados en un progreso lento y frágil.
+
+------------------------------------------------------------------------
+
+### **Clúster 4: Municipios en la base económica con expectativas modestas**
+
+![](https://graciasnaturaleza.com/wp-content/uploads/2022/10/agricultura-de-subsistencia-a-1024x743.jpg){fig-align="center" width="346"}
+
+-   **Ingresos:** \$41,258 trimestrales en promedio.
+-   **Desigualdad:** Más baja, pero con las tasas más altas de consumo restringido (63%).
+-   **Características:**
+    -   El 23.0% tiene percepciones económicas negativas, el nivel más alto entre los clusters.
+    -   Mejora limitada en percepciones debido a barreras estructurales.
+-   **Interpretación:**
+    -   Estos municipios viven en una "subsistencia ajustada". Las expectativas limitadas ayudan a manejar tensiones, pero perpetúan la falta de progreso.
 
 ------------------------------------------------------------------------
 
 ## Descubrimientos: Regiones y desigualdad
 
-### **Región Centro:** Crecimiento económico, pero sin mejora en el consumo
+### **Región Centro**
 
--   **Ingreso:** Creció 17.4% (2018-2022).\
--   **Desigualdad:** Estable (GINI: 0.34 a 0.36).\
--   **Consumo negativo:** Aún alto (54.5% en 2022).
+![](https://image.slidesharecdn.com/planeacionterritorialregioncentro-140902192349-phpapp01/95/planeacion-territorial-region-centro-1-638.jpg?cb=1409685863){fig-align="center" width="334"}
+
+-   **Ingresos:** Crecieron un $17.4\%$ (de $\$53,720$ en 2018 a $\$63,082$ en 2022).
+-   **Desigualdad:** Estable (GINI: 0.34 a 0.36).
+-   **Consumo:** A pesar de los ingresos crecientes, el consumo negativo sigue siendo alto ($54.5\%$ en 2022).
+
+------------------------------------------------------------------------
+
+### **Región Centro-Occidente**
+
+![](https://th.bing.com/th/id/R.4539ba083626c0f17e679b51a6f6481d?rik=TRIExmFqCE2lJA&riu=http%3a%2f%2fwww.centroccidente.org.mx%2faccarco%2fimgs%2festados.png&ehk=MuBAYQ%2b997X4LrtZXfGZCAICQdoehZ3ii37qS%2fMZSm8%3d&risl=&pid=ImgRaw&r=0){fig-align="center" width="243"}
+
+-   **Ingresos:** Crecimiento más moderado.
+-   **Consumo:** Menores niveles de consumo negativo ($43.4\%$ en 2020).
+-   **Estabilidad:** Percepciones económicas nacionales consistentemente moderadas.
+
+------------------------------------------------------------------------
+
+### **Región Norte**
+
+![](https://steelcab-mueblesparalaboratorio.com/wp-content/uploads/2023/07/mapa-zonas-oficinas-norte.png){fig-align="center" width="369"}
+
+-   **Ingresos y Consumo:** Menor incertidumbre económica personal ($<2\%$) y mayor confianza económica local, como en Ramos Arizpe.
+
+------------------------------------------------------------------------
 
 ### **Municipios destacados: Cambios en el GINI**
 
-#### **Crecimiento de desigualdad: Cuautitlán Izcalli**
+#### **Crecimiento del GINI: Mayor desigualdad**
 
--   **GINI:** +0.313 (2018-2020).\
--   **Brecha entre deciles:** \$290,434.\
--   **Percepciones negativas:** Consumo restringido refuerza tensiones.
+1.  **Cuautitlán Izcalli (+0.313, Clúster 2):**
+    -   **Región:** Centro.
+    -   **Desigualdad:** Brecha extrema entre decil 10 y decil 1: $\$290,434$.
+    -   **Percepciones:** Moderadas, con consumo restringido ($49.78\%$).
+    -   **Interpretación:** La alta concentración de riqueza amplifica tensiones económicas.
+2.  **Acolman (+0.181, Clúster 4):**
+    -   **Región:** Centro.
+    -   **Desigualdad:** Brecha más baja: $\$79,985$.
+    -   **Consumo:** $66.95\%$ enfrenta restricciones.
+    -   **Interpretación:** Las expectativas bajas no protegen completamente de percepciones negativas.
 
-#### **Decrecimiento de desigualdad: Tecámac**
+------------------------------------------------------------------------
 
--   **GINI:** -0.206 (2018-2022).\
--   **Brecha entre deciles:** \$84,382.\
--   **Impacto positivo:** Mejoras en los deciles bajos reducen percepciones negativas.
+#### **Decrecimiento del GINI: Mayor equidad**
 
-## Conclusión: Más allá de los ingresos
+1.  **Tecámac (-0.206, Clúster 3):**
+    -   **Región:** Centro.
+    -   **Desigualdad:** Brecha menor entre deciles (10 vs. 1): $\$84,382$.
+    -   **Percepciones:** Altas ($38.22\%$ positivas).
+    -   **Interpretación:** Las mejoras en distribución benefician directamente a los deciles bajos y medios.
+2.  **San Pedro Garza García (-0.208, Clúster 1):**
+    -   **Región:** Norte.
+    -   **Desigualdad:** Brecha alta: $\$235,056$.
+    -   **Consumo:** Más positivo que restrictivo ($26.70\%$ vs. $48.46\%$).
+    -   **Interpretación:** Aunque mejora la equidad, persisten tensiones internas debido a desigualdad extrema.
 
-La percepción del bienestar económico no está determinada únicamente por el ingreso absoluto, sino por el contexto y las expectativas.
+------------------------------------------------------------------------
 
-### **Hallazgos clave:**
+## Conclusión: *El bienestar percibido está enraizado en el contexto más que en el ingreso absoluto*
 
-1.  **Ricos también lloran:** En el clúster 2, expectativas elevadas generan insatisfacción.\
-2.  **Expectativas ajustadas:** En el clúster 4, las personas manejan mejor las dificultades.\
-3.  **Impacto de la desigualdad:** Brechas extremas amplifican percepciones negativas en todos los clústers.
+La percepción del bienestar económico no depende solo de los ingresos, sino de cómo las personas se comparan con su entorno y ajustan sus expectativas.
+
+1.  **Los municipios ricos también lloran:** En el clúster 2, las expectativas elevadas generan insatisfacción, incluso en contextos privilegiados.
+2.  **Expectativas ajustadas en los más pobres:** En el clúster 4, las personas manejan mejor las dificultades gracias a expectativas más bajas.
+3.  **La clase trabajadora valora cada mejora:** En el clúster 3, las intervenciones económicas en los deciles bajos y medios generan impactos positivos desproporcionados.
+4.  **La desigualdad amplifica tensiones:** En todos los clústers, las brechas extremas entre deciles aumentan las percepciones negativas.
 
 ## Recomendaciones para un México más justo
 

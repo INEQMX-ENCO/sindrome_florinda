@@ -5,62 +5,82 @@ jupyter: python3
 
 A continuación, se presenta una lista jerárquica de métricas organizadas de lo más relevante a lo contextual, orientadas a construir una narrativa clara y efectiva sobre los datos analizados.
 
-## **1. Métricas de Impacto Principal**
+## **Métricas de Impacto Principal**
 
 Estas métricas representan el núcleo de la narrativa y destacan los resultados clave:
 
-### **1.1. Índices de Percepción (Optimista, Pesimista, Mixta)**
+### **Índices de Percepción Optimista, Pesimista y Mixta**
 
 -   **Definición**: Promedios ponderados de respuestas a preguntas clasificadas según rangos de GINI para agrupar percepciones.
+
+-   **Fórmula:**
+
+    $$
+    \text{índice} = \frac{\sum_{i=1}^n \text{Ponderación}_i \cdot \text{Respuesta}_i}{\sum_{i=1}^n \text{Ponderación}_i} 
+    $$
+
+    Donde:
+
+    -   Ponderación$_i$: Peso asignado según el rango GINI.
+
+    -   Respuesta$_i$: Valor de la respuesta de la $i-$ésima pregunta.
+
+    -   $n$: Total de preguntas incluidas en la categoría.
 
 -   **Uso**: Determinan cómo se perciben los temas críticos desde una perspectiva global.
 
 -   **Importancia**: Establecen los ejes principales del análisis y las narrativas de cambio o estabilidad en las percepciones.
 
-### **1.2. GINI por Categorías Clave**
+### **GINI por Categorías Clave**
 
 -   **Definición**: Medida de desigualdad en la distribución de respuestas en preguntas categorizadas.
+
+-   **Fórmula:**
+
+    $$
+    \text{GINI} = \frac{\sum_{i=1}^n \sum_{j=1}^n \left| \text{Respuesta}_i - \text{Respuesta}_j \right|}{2n^2 \cdot \mu}
+    $$
+
+    Donde:
+
+    -   $\text{Respuesta}_i, \text{Respuesta}_j$: Respuestas individuales.
+
+    -   $\mu$: Media de las respuestas.
+
+    -   $n$: Número total de respuestas.
 
 -   **Uso**: Identifica áreas de mayor dispersión o consenso en las respuestas.
 
 -   **Importancia**: Proporciona contexto sobre la homogeneidad o heterogeneidad de las percepciones.
 
-## **2. Métricas de Contexto y Comparación**
+## **Métricas de Contexto y Comparación**
 
 Estas métricas brindan información adicional que complementa los resultados principales y ayudan a situar los hallazgos en un marco más amplio.
 
-### **2.1. Promedio General de Respuestas por Pregunta**
+### **Promedio General de Respuestas por Pregunta**
 
 -   **Definición**: Media simple de las respuestas para cada pregunta.
+
+-   **Fórmula**:
+
+    $$
+    \text{Promedio}= \frac{\sum_{i=1}^n \text{Respuesta}_i}{n}
+    $$
 
 -   **Uso**: Ayuda a identificar tendencias generales en el comportamiento o percepción de los encuestados.
 
 -   **Importancia**: Refuerza los índices principales al contrastar tendencias generales y específicas.
 
-### **2.2. Rango de Respuestas**
+### **Rango de Respuestas**
 
 -   **Definición**: Diferencia entre los valores mínimo y máximo de las respuestas por pregunta.
+
+-   **Fórmula**:
+
+    $$
+    \text{Rango} = \text{Máximo}(\text{Respuestas})-\text{Mínimo}(\text{Respuestas})
+    $$
 
 -   **Uso**: Evalúa la amplitud de las opiniones o percepciones en diferentes temas.
 
 -   **Importancia**: Sirve como indicador del nivel de variabilidad en las respuestas.
-
-## **3. Métricas de Profundización**
-
-Estas métricas proporcionan detalles que permiten explorar temas específicos más a fondo y realizar análisis detallados.
-
-### **3.1. Claves de Presas y Sus Niveles de Almacenamiento**
-
--   **Definición**: Datos sobre niveles de almacenamiento de agua asociados a claves específicas ('LCDSO', 'PECSO', etc.).
-
--   **Uso**: Relaciona variables de percepción con datos ambientales o geográficos específicos.
-
--   **Importancia**: Conecta percepciones sociales con datos objetivos del entorno.
-
-### **3.2. Categorías de GINI en Función de Agrupaciones Temáticas**
-
--   **Definición**: Asignación de rangos de GINI a temas específicos (e.g., sostenibilidad, economía).
-
--   **Uso**: Identifica si ciertos temas tienen mayor consenso o polarización.
-
--   **Importancia**: Facilita análisis temáticos en profundidad.
