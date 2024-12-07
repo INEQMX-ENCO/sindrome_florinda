@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "storyboard.html",
+    "href": "storyboard.html",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "",
+    "text": "En México, la economía no se vive de la misma manera en todos los municipios. A pesar de compartir retos como la desigualdad, las percepciones del bienestar económico pueden variar drásticamente según el contexto local. Este fenómeno, que hemos bautizado como “El síndrome de Doña Florinda”, demuestra que las personas no evalúan su bienestar económico únicamente en función de su ingreso, sino en relación con su entorno y expectativas.\nPregunta clave: ¿Qué determina cómo se percibe la economía?"
+  },
+  {
+    "objectID": "storyboard.html#el-problema-detrás-de-las-cifras",
+    "href": "storyboard.html#el-problema-detrás-de-las-cifras",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "",
+    "text": "En México, la economía no se vive de la misma manera en todos los municipios. A pesar de compartir retos como la desigualdad, las percepciones del bienestar económico pueden variar drásticamente según el contexto local. Este fenómeno, que hemos bautizado como “El síndrome de Doña Florinda”, demuestra que las personas no evalúan su bienestar económico únicamente en función de su ingreso, sino en relación con su entorno y expectativas.\nPregunta clave: ¿Qué determina cómo se percibe la economía?"
+  },
+  {
+    "objectID": "storyboard.html#datos-y-agrupación",
+    "href": "storyboard.html#datos-y-agrupación",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "Datos y agrupación",
+    "text": "Datos y agrupación\nPara responder esta pregunta, analizamos datos de ingreso, desigualdad (GINI), patrones de consumo y percepciones económicas en municipios mexicanos. Usando técnicas de análisis jerárquico, agrupamos los municipios en cuatro clusters.\n\n\n\n\n\n\n¿Qué es un clúster?\n\n\n\n\n\nUn clúster es un grupo de municipios con características económicas y sociales similares. Esta agrupación nos permite identificar patrones y diferencias clave en cómo los ingresos y la desigualdad afectan las percepciones económicas."
+  },
+  {
+    "objectID": "storyboard.html#historias-detrás-de-los-clústers",
+    "href": "storyboard.html#historias-detrás-de-los-clústers",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "Historias detrás de los clústers",
+    "text": "Historias detrás de los clústers\n\nClúster 1: Clase media alta con percepciones tensas\n\nIngreso: $82,612 trimestrales.\n\nDesigualdad: Moderada (GINI: 0.37).\n\nConsumo restringido: 49.2%.\nNarrativa: Municipios económicamente cómodos, pero con presión social para “mantener el nivel”. La comparación con otros limita su satisfacción.\n\n\n\n\nClúster 2: La élite económica y sus altas expectativas\n\nIngreso: $243,672 trimestrales.\n\nDesigualdad: Alta.\n\nPercepciones negativas: 24.8% (nacional).\nNarrativa: Aunque pertenecen a la élite, los estándares aspiracionales amplifican las tensiones. Pequeños problemas son percibidos como fracasos.\n\n\n\n\nClúster 3: Clase trabajadora atrapada en desigualdad\n\nIngreso: $58,372 trimestrales.\n\nDesigualdad: Moderada (GINI: 0.36).\n\nConsumo restringido: 49.6%.\nNarrativa: Una cultura de esfuerzo colectivo valora pequeñas mejoras económicas, pero la vulnerabilidad estructural frena el progreso.\n\n\n\n\nClúster 4: Subsistencia y expectativas modestas\n\nIngreso: $41,258 trimestrales.\n\nDesigualdad: Baja, pero con consumo restringido (63%).\nNarrativa: La “subsistencia ajustada” predomina. Las bajas expectativas ayudan a manejar tensiones, pero perpetúan limitaciones estructurales."
+  },
+  {
+    "objectID": "storyboard.html#descubrimientos-regiones-y-desigualdad",
+    "href": "storyboard.html#descubrimientos-regiones-y-desigualdad",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "Descubrimientos: Regiones y desigualdad",
+    "text": "Descubrimientos: Regiones y desigualdad\n\nRegión Centro: Crecimiento económico, pero sin mejora en el consumo\n\nIngreso: Creció 17.4% (2018-2022).\n\nDesigualdad: Estable (GINI: 0.34 a 0.36).\n\nConsumo negativo: Aún alto (54.5% en 2022).\n\n\n\nMunicipios destacados: Cambios en el GINI\n\nCrecimiento de desigualdad: Cuautitlán Izcalli\n\nGINI: +0.313 (2018-2020).\n\nBrecha entre deciles: $290,434.\n\nPercepciones negativas: Consumo restringido refuerza tensiones.\n\n\n\nDecrecimiento de desigualdad: Tecámac\n\nGINI: -0.206 (2018-2022).\n\nBrecha entre deciles: $84,382.\n\nImpacto positivo: Mejoras en los deciles bajos reducen percepciones negativas."
+  },
+  {
+    "objectID": "storyboard.html#conclusión-más-allá-de-los-ingresos",
+    "href": "storyboard.html#conclusión-más-allá-de-los-ingresos",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "Conclusión: Más allá de los ingresos",
+    "text": "Conclusión: Más allá de los ingresos\nLa percepción del bienestar económico no está determinada únicamente por el ingreso absoluto, sino por el contexto y las expectativas.\n\nHallazgos clave:\n\nRicos también lloran: En el clúster 2, expectativas elevadas generan insatisfacción.\n\nExpectativas ajustadas: En el clúster 4, las personas manejan mejor las dificultades.\n\nImpacto de la desigualdad: Brechas extremas amplifican percepciones negativas en todos los clústers."
+  },
+  {
+    "objectID": "storyboard.html#recomendaciones-para-un-méxico-más-justo",
+    "href": "storyboard.html#recomendaciones-para-un-méxico-más-justo",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "Recomendaciones para un México más justo",
+    "text": "Recomendaciones para un México más justo\n\nReducir desigualdad: Implementar políticas re-distributivas.\n\nAjustar expectativas: Fomentar un enfoque en el progreso colectivo.\n\nFortalecer el consumo positivo: Garantizar acceso a servicios básicos.\n\nPromover estabilidad: Diseñar políticas económicas sostenibles."
+  },
+  {
+    "objectID": "storyboard.html#reflexión-final-construyendo-un-méxico-más-equitativo",
+    "href": "storyboard.html#reflexión-final-construyendo-un-méxico-más-equitativo",
+    "title": "Storyboard: El síndrome de Doña Florinda",
+    "section": "Reflexión Final: Construyendo un México más equitativo",
+    "text": "Reflexión Final: Construyendo un México más equitativo\nPara transformar las percepciones económicas, es crucial abordar no solo los ingresos, sino también las expectativas y las comparaciones sociales. Un enfoque inclusivo permitirá construir comunidades más seguras y justas, sin importar el clúster al que pertenezcan."
+  },
+  {
+    "objectID": "maqueta.html",
+    "href": "maqueta.html",
+    "title": "Maqueta",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "fundamentacion.html",
+    "href": "fundamentacion.html",
+    "title": "Fundamentación",
+    "section": "",
+    "text": "El tablero está dirigido para un público diverso, que incluye:\n\nPúblico en general: Personas interesadas en comprender su entorno económico y comparar sus percepciones de ingresos y gastos con datos reales. Esto puede fomentar una comprensión más profunda de los problemas financieros que afectan a sus comunidades.\nResponsables de políticas públicas: Responsables de la toma de decisiones que requieren información sobre las condiciones económicas y las percepciones de los ciudadanos. Estos datos pueden ayudar a formular políticas destinadas a mejorar la educación financiera y el bienestar económico.\nInvestigadores y académicos: interesados en estudiar patrones socioeconómicos y percepciones subjetivas.\nOrganizaciones no gubernamentales (ONG): Organizaciones centradas en cuestiones sociales, alivio de la pobreza y desarrollo económico. Los datos pueden ayudar a estas organizaciones a comprender las necesidades de la comunidad y diseñar programas efectivos.\n\nTipo de tablero: Interactivo, con filtros por región, cluster y variables específicas para permitir análisis comparativos. Incluirá visualizaciones dinámicas como mapas, gráficos de barras y líneas de tiempo."
+  },
+  {
+    "objectID": "fundamentacion.html#audiencia",
+    "href": "fundamentacion.html#audiencia",
+    "title": "Fundamentación",
+    "section": "",
+    "text": "El tablero está dirigido para un público diverso, que incluye:\n\nPúblico en general: Personas interesadas en comprender su entorno económico y comparar sus percepciones de ingresos y gastos con datos reales. Esto puede fomentar una comprensión más profunda de los problemas financieros que afectan a sus comunidades.\nResponsables de políticas públicas: Responsables de la toma de decisiones que requieren información sobre las condiciones económicas y las percepciones de los ciudadanos. Estos datos pueden ayudar a formular políticas destinadas a mejorar la educación financiera y el bienestar económico.\nInvestigadores y académicos: interesados en estudiar patrones socioeconómicos y percepciones subjetivas.\nOrganizaciones no gubernamentales (ONG): Organizaciones centradas en cuestiones sociales, alivio de la pobreza y desarrollo económico. Los datos pueden ayudar a estas organizaciones a comprender las necesidades de la comunidad y diseñar programas efectivos.\n\nTipo de tablero: Interactivo, con filtros por región, cluster y variables específicas para permitir análisis comparativos. Incluirá visualizaciones dinámicas como mapas, gráficos de barras y líneas de tiempo."
+  },
+  {
+    "objectID": "fundamentacion.html#tema",
+    "href": "fundamentacion.html#tema",
+    "title": "Fundamentación",
+    "section": "Tema",
+    "text": "Tema\nLa relación entre la desigualdad (medida por el índice de GINI), los ingresos municipales y las percepciones económicas subjetivas en México. Exploramos cómo estos factores configuran un fenómeno conocido como el “síndrome de Doña Florinda”: la desconexión entre bienestar objetivo y subjetivo.\n¿Por qué debería interesarle a la audiencia?\n\nRelevancia social y económica: La desigualdad y las percepciones económicas influyen en la cohesión social, el consumo y las decisiones políticas.\nImpacto en la política pública: Comprender estas dinámicas puede guiar el diseño de programas más efectivos para reducir desigualdades y mejorar la calidad de vida.\nPerspectiva innovadora: Abordar cómo las expectativas y el contexto influyen en la percepción económica abre nuevas líneas de investigación y acción.\n\nAcciones que podría tomar la audiencia con esta información\n\nDiseñar políticas públicas enfocadas en reducir desigualdades y gestionar expectativas económicas mediante educación financiera y programas de redistribución.\nPriorizar inversiones en clusters específicos, como aquellos con alta desigualdad o consumo negativo, para maximizar el impacto social.\nDifundir resultados en campañas de comunicación que sensibilicen sobre las causas estructurales de la percepción económica negativa."
+  },
+  {
+    "objectID": "fundamentacion.html#relación-de-los-datos-con-la-historia",
+    "href": "fundamentacion.html#relación-de-los-datos-con-la-historia",
+    "title": "Fundamentación",
+    "section": "Relación de los datos con la historia",
+    "text": "Relación de los datos con la historia\n¿Por qué podemos contar la historia?\nLa historia está basada en datos cuantitativos de la ENCO y ENIGH, como ingresos promedio, índice de GINI, consumo y percepciones económicas. Los datos disponibles permiten explorar tanto indicadores objetivos (índice de GINI, ingresos por decil) como subjetivos (percepciones económicas personales y nacionales). Los clusters ofrecen una clasificación clara para entender las dinámicas económicas y sociales.\n\nDisponibilidad de datos: Datos de ENIGH y ENCO permiten vincular indicadores objetivos (ingresos, gastos) con subjetivos (percepción de bienestar).\nDelimitaciones: La historia está limitada a los indicadores disponibles, lo que permite explicar correlaciones pero no causalidad directa. Las interpretaciones subjetivas pueden variar dependiendo del contexto social y cultural no capturado por los datos.\nOportunidades: La estructura de los datos permite aplicar métodos como análisis de clústeres y comparación regional."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "El síndrome de Doña Florinda: Cómo la desigualdad y las expectativas moldean la percepción económica en México",
+    "section": "",
+    "text": "En México, cada municipio enfrenta desafíos económicos únicos, pero hay un factor que los conecta: la interacción entre desigualdad y expectativas. Nuestro análisis pone de manifiesto un fenómeno conocido coloquialmente como “el síndrome de Doña Florinda”, donde las percepciones de bienestar no siempre coinciden con la realidad económica, sino que están influenciadas por comparaciones sociales y expectativas individuales. Al clasificar los municipios en clusters según características compartidas, identificamos patrones clave que revelan cómo se experimenta y percibe la economía en diferentes regiones del país.\n\n\n\n\n\n\n\n\n\n\n\n¿Qué es un clúster y por qué es relevante aquí?\n\n\n\n\n\nUtilizando herramientas de análisis jerárquico, clasificamos municipios en cuatro clústers según su nivel de ingreso, desigualdad (GINI), patrones de consumo y percepciones económicas. Este enfoque revela dinámicas económicas y sociales únicas en cada grupo, proporcionando una perspectiva profunda sobre cómo los ingresos y la desigualdad moldean las percepciones económicas."
+  },
+  {
+    "objectID": "index.html#descripción",
+    "href": "index.html#descripción",
+    "title": "El síndrome de Doña Florinda: Cómo la desigualdad y las expectativas moldean la percepción económica en México",
+    "section": "",
+    "text": "En México, cada municipio enfrenta desafíos económicos únicos, pero hay un factor que los conecta: la interacción entre desigualdad y expectativas. Nuestro análisis pone de manifiesto un fenómeno conocido coloquialmente como “el síndrome de Doña Florinda”, donde las percepciones de bienestar no siempre coinciden con la realidad económica, sino que están influenciadas por comparaciones sociales y expectativas individuales. Al clasificar los municipios en clusters según características compartidas, identificamos patrones clave que revelan cómo se experimenta y percibe la economía en diferentes regiones del país.\n\n\n\n\n\n\n\n\n\n\n\n¿Qué es un clúster y por qué es relevante aquí?\n\n\n\n\n\nUtilizando herramientas de análisis jerárquico, clasificamos municipios en cuatro clústers según su nivel de ingreso, desigualdad (GINI), patrones de consumo y percepciones económicas. Este enfoque revela dinámicas económicas y sociales únicas en cada grupo, proporcionando una perspectiva profunda sobre cómo los ingresos y la desigualdad moldean las percepciones económicas."
+  },
+  {
+    "objectID": "metricas.html",
+    "href": "metricas.html",
+    "title": "Definición de Métricas: Narrativa de Datos",
+    "section": "",
+    "text": "A continuación, se presenta una lista jerárquica de métricas organizadas de lo más relevante a lo contextual, orientadas a construir una narrativa clara y efectiva sobre los datos analizados."
+  },
+  {
+    "objectID": "metricas.html#métricas-de-impacto-principal",
+    "href": "metricas.html#métricas-de-impacto-principal",
+    "title": "Definición de Métricas: Narrativa de Datos",
+    "section": "1. Métricas de Impacto Principal",
+    "text": "1. Métricas de Impacto Principal\nEstas métricas representan el núcleo de la narrativa y destacan los resultados clave:\n\n1.1. Índices de Percepción (Optimista, Pesimista, Mixta)\n\nDefinición: Promedios ponderados de respuestas a preguntas clasificadas según rangos de GINI para agrupar percepciones.\nUso: Determinan cómo se perciben los temas críticos desde una perspectiva global.\nImportancia: Establecen los ejes principales del análisis y las narrativas de cambio o estabilidad en las percepciones.\n\n\n\n1.2. GINI por Categorías Clave\n\nDefinición: Medida de desigualdad en la distribución de respuestas en preguntas categorizadas.\nUso: Identifica áreas de mayor dispersión o consenso en las respuestas.\nImportancia: Proporciona contexto sobre la homogeneidad o heterogeneidad de las percepciones."
+  },
+  {
+    "objectID": "metricas.html#métricas-de-contexto-y-comparación",
+    "href": "metricas.html#métricas-de-contexto-y-comparación",
+    "title": "Definición de Métricas: Narrativa de Datos",
+    "section": "2. Métricas de Contexto y Comparación",
+    "text": "2. Métricas de Contexto y Comparación\nEstas métricas brindan información adicional que complementa los resultados principales y ayudan a situar los hallazgos en un marco más amplio.\n\n2.1. Promedio General de Respuestas por Pregunta\n\nDefinición: Media simple de las respuestas para cada pregunta.\nUso: Ayuda a identificar tendencias generales en el comportamiento o percepción de los encuestados.\nImportancia: Refuerza los índices principales al contrastar tendencias generales y específicas.\n\n\n\n2.2. Rango de Respuestas\n\nDefinición: Diferencia entre los valores mínimo y máximo de las respuestas por pregunta.\nUso: Evalúa la amplitud de las opiniones o percepciones en diferentes temas.\nImportancia: Sirve como indicador del nivel de variabilidad en las respuestas."
+  },
+  {
+    "objectID": "metricas.html#métricas-de-profundización",
+    "href": "metricas.html#métricas-de-profundización",
+    "title": "Definición de Métricas: Narrativa de Datos",
+    "section": "3. Métricas de Profundización",
+    "text": "3. Métricas de Profundización\nEstas métricas proporcionan detalles que permiten explorar temas específicos más a fondo y realizar análisis detallados.\n\n3.1. Claves de Presas y Sus Niveles de Almacenamiento\n\nDefinición: Datos sobre niveles de almacenamiento de agua asociados a claves específicas (‘LCDSO’, ‘PECSO’, etc.).\nUso: Relaciona variables de percepción con datos ambientales o geográficos específicos.\nImportancia: Conecta percepciones sociales con datos objetivos del entorno.\n\n\n\n3.2. Categorías de GINI en Función de Agrupaciones Temáticas\n\nDefinición: Asignación de rangos de GINI a temas específicos (e.g., sostenibilidad, economía).\nUso: Identifica si ciertos temas tienen mayor consenso o polarización.\nImportancia: Facilita análisis temáticos en profundidad."
+  }
+]

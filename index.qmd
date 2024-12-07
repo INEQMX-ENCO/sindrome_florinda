@@ -1,0 +1,18 @@
+---
+title: "El síndrome de Doña Florinda: Cómo la desigualdad y las expectativas moldean la percepción económica en México"
+jupyter: python3
+date: today
+number-sections: false 
+---
+
+## Descripción
+
+En México, cada municipio enfrenta desafíos económicos únicos, pero hay un factor que los conecta: la interacción entre desigualdad y expectativas. Nuestro análisis pone de manifiesto un fenómeno conocido como "el síndrome de Doña Florinda", donde las percepciones de bienestar no siempre coinciden con la realidad económica, sino que están influenciadas por comparaciones sociales y expectativas individuales. Al clasificar los municipios en clusters según características compartidas, identificamos patrones clave que revelan cómo se experimenta y percibe la economía en diferentes regiones del país.
+
+![](https://th.bing.com/th/id/R.7dd82d33abdcae7f25ee78bba1c55750?rik=e76%2fUu1ZzLMZQA&riu=http%3a%2f%2fwww.novalaplata.com%2fdata%2ffotos2%2fbbx_729828621_2_libro_portada.jpg&ehk=9pBM7lA8qiTwZVQHa5NeOQGIseX%2bUebGfUDz12BWtwE%3d&risl=&pid=ImgRaw&r=0){fig-align="center" width="348"}
+
+::: {.callout-note collapse="true"}
+## ¿Qué es un clúster y por qué es relevante aquí?
+
+Utilizando herramientas de análisis jerárquico, clasificamos municipios en cuatro clústers según su nivel de ingreso, desigualdad (GINI), patrones de consumo y percepciones económicas. Este enfoque revela dinámicas económicas y sociales únicas en cada grupo, proporcionando una perspectiva profunda sobre cómo los ingresos y la desigualdad moldean las percepciones económicas.
+:::

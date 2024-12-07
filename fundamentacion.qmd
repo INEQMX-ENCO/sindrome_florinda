@@ -1,0 +1,50 @@
+---
+title: "Fundamentación"
+jupyter: python3
+---
+
+## Audiencia
+
+El tablero está dirigido para un público diverso, que incluye:
+
+-   *Público en general:* Personas interesadas en comprender su entorno económico y comparar sus percepciones de ingresos y gastos con datos reales. Esto puede fomentar una comprensión más profunda de los problemas financieros que afectan a sus comunidades.
+
+-   *Responsables de políticas públicas:* Responsables de la toma de decisiones que requieren información sobre las condiciones económicas y las percepciones de los ciudadanos. Estos datos pueden ayudar a formular políticas destinadas a mejorar la educación financiera y el bienestar económico.
+
+-   *Investigadores y académicos:* interesados en estudiar patrones socioeconómicos y percepciones subjetivas.
+
+-   *Organizaciones no gubernamentales (ONG):* Organizaciones centradas en cuestiones sociales, alivio de la pobreza y desarrollo económico. Los datos pueden ayudar a estas organizaciones a comprender las necesidades de la comunidad y diseñar programas efectivos.
+
+**Tipo de tablero:** Interactivo, con filtros por región, cluster y variables específicas para permitir análisis comparativos. Incluirá visualizaciones dinámicas como mapas, gráficos de barras y líneas de tiempo.
+
+## Tema
+
+La relación entre la desigualdad (medida por el índice de GINI), los ingresos municipales y las percepciones económicas subjetivas en México. Exploramos cómo estos factores configuran un fenómeno conocido como el "síndrome de Doña Florinda": la desconexión entre bienestar objetivo y subjetivo.
+
+**¿Por qué debería interesarle a la audiencia?**
+
+-   **Relevancia social y económica**: La desigualdad y las percepciones económicas influyen en la cohesión social, el consumo y las decisiones políticas.
+
+-    **Impacto en la política pública**: Comprender estas dinámicas puede guiar el diseño de programas más efectivos para reducir desigualdades y mejorar la calidad de vida.
+
+-   **Perspectiva innovadora**: Abordar cómo las expectativas y el contexto influyen en la percepción económica abre nuevas líneas de investigación y acción.
+
+**Acciones que podría tomar la audiencia con esta información**
+
+-   **Diseñar políticas públicas** enfocadas en reducir desigualdades y gestionar expectativas económicas mediante educación financiera y programas de redistribución.
+
+-   **Priorizar inversiones** en clusters específicos, como aquellos con alta desigualdad o consumo negativo, para maximizar el impacto social.
+
+-   **Difundir resultados** en campañas de comunicación que sensibilicen sobre las causas estructurales de la percepción económica negativa.
+
+## Relación de los datos con la historia
+
+**¿Por qué podemos contar la historia?**
+
+La historia está basada en datos cuantitativos de la ENCO y ENIGH, como ingresos promedio, índice de GINI, consumo y percepciones económicas. Los datos disponibles permiten explorar tanto indicadores objetivos (índice de GINI, ingresos por decil) como subjetivos (percepciones económicas personales y nacionales). Los clusters ofrecen una clasificación clara para entender las dinámicas económicas y sociales.
+
+-   *Disponibilidad de datos*: Datos de ENIGH y ENCO permiten vincular indicadores objetivos (ingresos, gastos) con subjetivos (percepción de bienestar).
+
+-   *Delimitaciones*: La historia está limitada a los indicadores disponibles, lo que permite explicar correlaciones pero no causalidad directa. Las interpretaciones subjetivas pueden variar dependiendo del contexto social y cultural no capturado por los datos.
+
+-   *Oportunidades*: La estructura de los datos permite aplicar métodos como análisis de clústeres y comparación regional.

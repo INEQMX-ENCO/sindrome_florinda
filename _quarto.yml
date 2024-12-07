@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  title: "Contando una Historia"
+  favicon: img/mcdlogo.png
+  image: img/mcdlogo.png
+  repo-url: https://github.com/INEQMX-ENCO/INEQMX-ENCO-2022
+  repo-actions: [edit, issue, source]
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer:
+    border: true
+    left: | 
+      Powered by [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/).
+    center: |
+      Copyright &copy; [2024](https://github.com/INEQMX-ENCO/INEQMX-ENCO-2022) [Barraza Real Ángel Alberto](https://www.linkedin.com/in/angelbarrazareal), [López García Jennifer Sherlyn](https://www.linkedin.com/in/jennlopezgarcia), [Robles Andrade Feliciano](https://www.linkedin.com/in/feliciano-ra/).
+    right: |
+      Bajo [Licencia MIT](https://github.com/INEQMX-ENCO/INEQMX-ENCO-2022/blob/9666c9b5b0534d9a4b39b0fa83da141ad7de8b40/LICENSE).
+
+  navbar:
+    search: true
+    logo: img/R.png
+    right:
+      - href: index.qmd
+        text: Inicio
+      - href: fundamentacion.qmd
+        text: Fundamentación
+      - href: storyboard.qmd
+        text: Storyboard
+      - href: metricas.qmd
+        text: Métricas
+      - href: maqueta.qmd
+        text: Maqueta
+        
+format:
+  html:
+    theme: 
+      light: lux
+      dark: darkly
+    css: styles.css
+    toc: true
+    lang: es
+
+editor: visual
+

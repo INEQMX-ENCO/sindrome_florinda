@@ -1,0 +1,101 @@
+---
+title: "Storyboard: El síndrome de Doña Florinda"
+subtitle: "Cómo la desigualdad y las expectativas moldean la percepción económica en México"
+jupyter: python3
+---
+
+## El problema detrás de las cifras
+
+En México, la economía no se vive de la misma manera en todos los municipios. A pesar de compartir retos como la desigualdad, las percepciones del bienestar económico pueden variar drásticamente según el contexto local. Este fenómeno, conocido como "El síndrome de Doña Florinda", demuestra que las personas no evalúan su bienestar económico únicamente en función de su ingreso, sino en relación con su entorno y expectativas.
+
+**Pregunta clave:** ¿Qué determina cómo se percibe la economía?
+
+## Datos y agrupación
+
+Para responder esta pregunta, analizamos datos de ingreso, desigualdad (GINI), patrones de consumo y percepciones económicas en municipios mexicanos. Usando técnicas de análisis jerárquico, agrupamos los municipios en cuatro **clusters**.
+
+::: {.callout-warning collapse="true" icon="false"}
+## ¿Qué es un clúster?
+
+Un clúster es un grupo de municipios con características económicas y sociales similares. Esta agrupación nos permite identificar patrones y diferencias clave en cómo los ingresos y la desigualdad afectan las percepciones económicas.
+:::
+
+## Historias detrás de los clústers
+
+### **Clúster 1:** Clase media alta con percepciones tensas
+
+-   **Ingreso:** \$82,612 trimestrales.\
+-   **Desigualdad:** Moderada (GINI: 0.37).\
+-   **Consumo restringido:** 49.2%.\
+    **Narrativa:** Municipios económicamente cómodos, pero con presión social para "mantener el nivel". La comparación con otros limita su satisfacción.
+
+------------------------------------------------------------------------
+
+### **Clúster 2:** La élite económica y sus altas expectativas
+
+-   **Ingreso:** \$243,672 trimestrales.\
+-   **Desigualdad:** Alta.\
+-   **Percepciones negativas:** 24.8% (nacional).\
+    **Narrativa:** Aunque pertenecen a la élite, los estándares aspiracionales amplifican las tensiones. Pequeños problemas son percibidos como fracasos.
+
+------------------------------------------------------------------------
+
+### **Clúster 3:** Clase trabajadora atrapada en desigualdad
+
+-   **Ingreso:** \$58,372 trimestrales.\
+-   **Desigualdad:** Moderada (GINI: 0.36).\
+-   **Consumo restringido:** 49.6%.\
+    **Narrativa:** Una cultura de esfuerzo colectivo valora pequeñas mejoras económicas, pero la vulnerabilidad estructural frena el progreso.
+
+------------------------------------------------------------------------
+
+### **Clúster 4:** Subsistencia y expectativas modestas
+
+-   **Ingreso:** \$41,258 trimestrales.\
+-   **Desigualdad:** Baja, pero con consumo restringido (63%).\
+    **Narrativa:** La "subsistencia ajustada" predomina. Las bajas expectativas ayudan a manejar tensiones, pero perpetúan limitaciones estructurales.
+
+------------------------------------------------------------------------
+
+## Descubrimientos: Regiones y desigualdad
+
+### **Región Centro:** Crecimiento económico, pero sin mejora en el consumo
+
+-   **Ingreso:** Creció 17.4% (2018-2022).\
+-   **Desigualdad:** Estable (GINI: 0.34 a 0.36).\
+-   **Consumo negativo:** Aún alto (54.5% en 2022).
+
+### **Municipios destacados: Cambios en el GINI**
+
+#### **Crecimiento de desigualdad: Cuautitlán Izcalli**
+
+-   **GINI:** +0.313 (2018-2020).\
+-   **Brecha entre deciles:** \$290,434.\
+-   **Percepciones negativas:** Consumo restringido refuerza tensiones.
+
+#### **Decrecimiento de desigualdad: Tecámac**
+
+-   **GINI:** -0.206 (2018-2022).\
+-   **Brecha entre deciles:** \$84,382.\
+-   **Impacto positivo:** Mejoras en los deciles bajos reducen percepciones negativas.
+
+## Conclusión: Más allá de los ingresos
+
+La percepción del bienestar económico no está determinada únicamente por el ingreso absoluto, sino por el contexto y las expectativas.
+
+### **Hallazgos clave:**
+
+1.  **Ricos también lloran:** En el clúster 2, expectativas elevadas generan insatisfacción.\
+2.  **Expectativas ajustadas:** En el clúster 4, las personas manejan mejor las dificultades.\
+3.  **Impacto de la desigualdad:** Brechas extremas amplifican percepciones negativas en todos los clústers.
+
+## Recomendaciones para un México más justo
+
+1.  **Reducir desigualdad:** Implementar políticas re-distributivas.\
+2.  **Ajustar expectativas:** Fomentar un enfoque en el progreso colectivo.\
+3.  **Fortalecer el consumo positivo:** Garantizar acceso a servicios básicos.\
+4.  **Promover estabilidad:** Diseñar políticas económicas sostenibles.
+
+## Reflexión Final: Construyendo un México más equitativo
+
+Para transformar las percepciones económicas, es crucial abordar no solo los ingresos, sino también las expectativas y las comparaciones sociales. Un enfoque inclusivo permitirá construir comunidades más seguras y justas, sin importar el clúster al que pertenezcan.
