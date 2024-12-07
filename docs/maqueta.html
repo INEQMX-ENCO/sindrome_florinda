@@ -73,10 +73,10 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Maqueta – Contando una Historia">
-<meta property="og:image" content="img/maqueta.png">
+<meta property="og:image" content="img/Intro.png">
 <meta property="og:site_name" content="Contando una Historia">
 <meta name="twitter:title" content="Maqueta – Contando una Historia">
-<meta name="twitter:image" content="img/maqueta.png">
+<meta name="twitter:image" content="img/Intro.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -132,8 +132,30 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#dashboard-interactivo-el-síndrome-de-doña-florinda" id="toc-dashboard-interactivo-el-síndrome-de-doña-florinda" class="nav-link active" data-scroll-target="#dashboard-interactivo-el-síndrome-de-doña-florinda">📊 Dashboard Interactivo: El Síndrome de Doña Florinda</a>
+  <ul class="collapse">
+  <li><a href="#introducción" id="toc-introducción" class="nav-link" data-scroll-target="#introducción">Introducción</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-del-dashboard" id="toc-objetivos-del-dashboard" class="nav-link" data-scroll-target="#objetivos-del-dashboard">Objetivos del Dashboard</a></li>
+  </ul></li>
+  <li><a href="#estructura-del-dashboard" id="toc-estructura-del-dashboard" class="nav-link" data-scroll-target="#estructura-del-dashboard">Estructura del Dashboard</a>
+  <ul class="collapse">
+  <li><a href="#sidebar" id="toc-sidebar" class="nav-link" data-scroll-target="#sidebar">1️⃣ Sidebar</a></li>
+  <li><a href="#introducción-1" id="toc-introducción-1" class="nav-link" data-scroll-target="#introducción-1">2️⃣ Introducción</a></li>
+  <li><a href="#cuestionario" id="toc-cuestionario" class="nav-link" data-scroll-target="#cuestionario">3️⃣ Cuestionario</a></li>
+  <li><a href="#respuestas" id="toc-respuestas" class="nav-link" data-scroll-target="#respuestas">4️⃣ Respuestas</a></li>
+  <li><a href="#clústers" id="toc-clústers" class="nav-link" data-scroll-target="#clústers">5️⃣ Clústers</a></li>
+  <li><a href="#dashboard-exploratorio" id="toc-dashboard-exploratorio" class="nav-link" data-scroll-target="#dashboard-exploratorio">6️⃣ Dashboard Exploratorio</a></li>
+  </ul></li>
+  <li><a href="#tecnologías-y-código" id="toc-tecnologías-y-código" class="nav-link" data-scroll-target="#tecnologías-y-código">Tecnologías y Código</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/blob/main/maqueta.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -157,13 +179,161 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="dashboard-interactivo-el-síndrome-de-doña-florinda" class="level1">
+<h1>📊 Dashboard Interactivo: El Síndrome de Doña Florinda</h1>
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<p>El dashboard <strong>“El Síndrome de Doña Florinda”</strong> es una herramienta interactiva diseñada para analizar cómo la percepción económica en México está influenciada por factores sociales, económicos y de desigualdad. Inspirado en el personaje de <em>El Chavo del 8</em>, este fenómeno refleja cómo las percepciones económicas están moldeadas no solo por la realidad objetiva, sino también por las comparaciones sociales.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://interactive-map.streamlit.app/"><img src="img/maqueta.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
+<p><a href="https://dashboard-dona-florinda.streamlit.app/"><img src="img/Intro.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
 </figure>
 </div>
+<section id="objetivos-del-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-dashboard">Objetivos del Dashboard</h3>
+<ol type="1">
+<li>Identificar cómo se agrupan los municipios en México según características económicas y sociales.</li>
+<li>Explorar los factores que moldean las percepciones económicas en diferentes regiones.</li>
+<li>Permitir a los usuarios comparar su situación económica personal con los promedios municipales, estatales y nacionales.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="estructura-del-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="estructura-del-dashboard">Estructura del Dashboard</h2>
+<section id="sidebar" class="level3">
+<h3 class="anchored" data-anchor-id="sidebar">1️⃣ Sidebar</h3>
+<p>El sidebar actúa como menú de navegación, con las siguientes secciones:</p>
+<ul>
+<li><strong>Introducción</strong>: Contexto general del análisis.</li>
+<li><strong>Cuestionario</strong>: Recopila información del usuario para personalizar el análisis.</li>
+<li><strong>Respuestas</strong>: Muestra comparativas personalizadas con datos municipales, estatales y nacionales.</li>
+<li><strong>Clusters</strong>: Detalla agrupaciones de municipios basadas en características comunes.</li>
+<li><strong>Dashboard</strong>: Proporciona herramientas de exploración general a nivel estatal y municipal.</li>
+</ul>
+<hr>
+</section>
+<section id="introducción-1" class="level3">
+<h3 class="anchored" data-anchor-id="introducción-1">2️⃣ Introducción</h3>
+<p>Esta sección presenta el contexto del análisis:</p>
+<ul>
+<li><p><strong>Tema Principal</strong>: Cómo la desigualdad y las expectativas moldean la percepción económica.</p></li>
+<li><p><strong>Datos utilizados</strong>: Encuestas nacionales (ENIGH y ENCO) para explorar ingresos, consumo, ahorro y percepciones.</p></li>
+<li><p><strong>Explicación del título</strong>: <em>“El Síndrome de Doña Florinda”</em> ilustra cómo las percepciones económicas están influenciadas por comparaciones con el entorno.</p></li>
+</ul>
+<hr>
+</section>
+<section id="cuestionario" class="level3">
+<h3 class="anchored" data-anchor-id="cuestionario">3️⃣ Cuestionario</h3>
+<p>Un formulario interactivo donde los usuarios ingresan información personal:</p>
+<ul>
+<li><p><strong>Datos básicos</strong>: Nombre, estado, municipio, ingresos.</p></li>
+<li><p><strong>Percepción económica</strong>:</p>
+<ul>
+<li><p>Opinión sobre su situación personal y la economía nacional.</p></li>
+<li><p>Opinión sobre cambios en ahorro y consumo.</p></li>
+<li><p>Los datos ingresados se procesan para personalizar el análisis.</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Cuestionario.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="respuestas" class="level3">
+<h3 class="anchored" data-anchor-id="respuestas">4️⃣ Respuestas</h3>
+<p>Comparativa personalizada que posiciona al usuario frente a promedios:</p>
+<ul>
+<li><p><strong>Niveles de comparación</strong>:</p>
+<ul>
+<li><p>Nacional</p></li>
+<li><p>Estatal</p></li>
+<li><p>Municipal</p></li>
+</ul></li>
+<li><p><strong>Aspectos analizados</strong>:</p>
+<ul>
+<li><p>Distribución de ingresos por deciles.</p></li>
+<li><p>Coeficiente GINI (desigualdad).</p></li>
+<li><p>Percepciones económicas personales y nacionales.</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Respuestas.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="clústers" class="level3">
+<h3 class="anchored" data-anchor-id="clústers">5️⃣ Clústers</h3>
+<p>Sección que detalla los grupos de municipios identificados por sus similitudes económicas y sociales:</p>
+<ul>
+<li><p><strong>Explicación</strong>: Los clústers son agrupaciones basadas en patrones comunes.</p></li>
+<li><p><strong>Visualizaciones</strong>:</p>
+<ul>
+<li><p>Ingreso promedio.</p></li>
+<li><p>Índice GINI.</p></li>
+<li><p>Percepción económica negativa.</p></li>
+<li><p>Consumo restringido.</p></li>
+<li><p>Los usuarios pueden explorar las características específicas de cada clúster.</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Clusters.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="dashboard-exploratorio" class="level3">
+<h3 class="anchored" data-anchor-id="dashboard-exploratorio">6️⃣ Dashboard Exploratorio</h3>
+<p>Una herramienta para explorar datos económicos y sociales de México:</p>
+<ul>
+<li><p><strong>Niveles de análisis</strong>: Estatal y Municipal.</p></li>
+<li><p><strong>Filtros disponibles</strong>:</p>
+<ul>
+<li><p>Año: 2018, 2020, 2022.</p></li>
+<li><p>Estado y Municipio.</p></li>
+</ul></li>
+<li><p><strong>Gráficos interactivos</strong>:</p>
+<ul>
+<li><p>Coeficiente GINI.</p></li>
+<li><p>Distribución de ingresos por deciles.</p></li>
+<li><p>Categorías económicas: percepciones y patrones de consumo.</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/DashboardImg.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<hr>
+</section>
+</section>
+<section id="tecnologías-y-código" class="level2">
+<h2 class="anchored" data-anchor-id="tecnologías-y-código">Tecnologías y Código</h2>
+<ul>
+<li><strong>Framework</strong>: Streamlit para visualizaciones y navegación.</li>
+<li><strong>Librerías</strong>:
+<ul>
+<li><code>Pandas</code>: Procesamiento y análisis de datos.</li>
+<li><code>Plotly</code>: Gráficos interactivos.</li>
+<li><code>Matplotlib</code>: Visualización de barras personalizadas.</li>
+</ul></li>
+<li><strong>Estructura del Proyecto</strong>:
+<ul>
+<li><code>main.py</code>: Controlador principal de la aplicación.</li>
+<li><code>visualizations.py</code>: Gráficos personalizados.</li>
+<li><code>dashboard.py</code>: Lógica del dashboard exploratorio.</li>
+</ul></li>
+</ul>
+<hr>
 
 
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -735,7 +905,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p>Copyright © <a href="https://github.com/INEQMX-ENCO/INEQMX-ENCO-2022">2024</a> <a href="https://www.linkedin.com/in/angelbarrazareal">Barraza Real Ángel Alberto</a>, <a href="https://www.linkedin.com/in/jennlopezgarcia">López García Jennifer Sherlyn</a>, <a href="https://www.linkedin.com/in/feliciano-ra/">Robles Andrade Feliciano</a>.</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/blob/main/maqueta.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li><li><a href="https://github.com/INEQMX-ENCO/sindrome_florinda/blob/main/maqueta.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Bajo <a href="https://github.com/INEQMX-ENCO/sindrome_florinda/blob/main/LICENSE">Licencia MIT</a>.</p>
 </div>

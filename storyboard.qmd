@@ -26,163 +26,170 @@ Un clúster es un grupo de municipios con características económicas y sociale
 
 ## Historias detrás de los clústers: Analizados desde la vecindad del Chavo
 
-### Clúster 1: **"Los que tienen, pero quieren más (Doña Florinda)"**
+### Clúster 1: "Los que tienen, pero quieren más (Doña Florinda)"
 
 ![](https://www.eleconomista.net/__export/1693439374876/sites/prensagrafica/img/2023/08/30/nbscnanc.png_1902800913.png){fig-align="center" width="376"}
 
-- **Analogía:**  
-  Como Doña Florinda, estos municipios han alcanzado un nivel de comodidad económica. Sin embargo, la presión de aparentar los lleva a compararse constantemente con su entorno, generando tensiones internas. Aunque tienen más que otros, viven con el estrés de "mantener el nivel".
-- **Ingresos promedio:** \$82,612 trimestrales.
-- **Desigualdad:** Moderada (GINI: 0.37).
-- **Lo que se vive aquí:**
-  - Casi la mitad de las familias ($49.2\%$) enfrenta consumo restringido, pero un $20.5\%$ logra ahorrar y gastar en cosas no esenciales.
-  - Aunque solo un $16.8\%$ tiene percepciones negativas, muchos sienten la presión de "mantener el nivel" debido a las comparaciones sociales.
+-   **Analogía:**\
+    Como Doña Florinda, estos municipios han alcanzado un nivel de comodidad económica. Sin embargo, la presión de aparentar los lleva a compararse constantemente con su entorno, generando tensiones internas. Aunque tienen más que otros, viven con el estrés de "mantener el nivel".
+-   **Ingresos promedio:** $\$82,612$ trimestrales.
+-   **Desigualdad:** Moderada (GINI: $0.37$).
+-   **Lo que se vive aquí:**
+    -   Casi la mitad de las familias ($49.2\%$) enfrenta consumo restringido, pero un $20.5\%$ logra ahorrar y gastar en cosas no esenciales.
+    -   Aunque solo un $16.8\%$ tiene percepciones negativas, muchos sienten la presión de "mantener el nivel" debido a las comparaciones sociales.
 
-📌 **¿Qué pasa aquí?**  
+📌 **¿Qué pasa aquí?**\
 Estos municipios tienen economías cómodas, pero los estándares elevados generan estrés. A menudo, el éxito no se mide por lo que tienen, sino por cómo se comparan con los demás.
 
----
+------------------------------------------------------------------------
 
-### Clúster 2: **"Los reyes inquietos (Quico)"**
+### Clúster 2: "Los reyes inquietos (Quico)"
 
 ![](https://www.mdzol.com/u/fotografias/m/2024/1/12/f1280x720-1535562_1667237_5050.jpg){fig-align="center" width="376"}
 
-- **Analogía:**  
-  Como Quico, estos municipios están en la cima económica, pero viven atrapados en la "sociedad aspiracional". Siempre buscan tener más que los demás, y cualquier pequeño contratiempo se percibe como un gran fracaso.
-- **Ingresos promedio:** \$243,672 trimestrales.
-- **Desigualdad:** Alta (GINI: 0.56).
-- **Lo que se vive aquí:**
-  - Un $13.9\%$ tiene percepciones económicas negativas, mientras que la percepción nacional negativa alcanza un alto $24.8\%$.
-  - Aunque el consumo positivo ($25.1\%$) es mayor que en otros clústers, las tensiones por mantener expectativas son palpables.
+-   **Analogía:**\
+    Como Quico, estos municipios están en la cima económica, pero viven atrapados en la "sociedad aspiracional". Siempre buscan tener más que los demás, y cualquier pequeño contratiempo se percibe como un gran fracaso.
+-   **Ingresos promedio:** $\$243,672$ trimestrales.
+-   **Desigualdad:** Alta (GINI: $0.56$).
+-   **Lo que se vive aquí:**
+    -   Un $13.9\%$ tiene percepciones económicas negativas, mientras que la percepción nacional negativa alcanza un alto $24.8\%$.
+    -   Aunque el consumo positivo ($25.1\%$) es mayor que en otros clústers, las tensiones por mantener expectativas son palpables.
 
-📌 **¿Qué pasa aquí?**  
+📌 **¿Qué pasa aquí?**\
 Estos municipios están en la cima económica, pero aquí domina la "sociedad aspiracional". La comparación no es con los menos afortunados, sino con otros ricos, lo que transforma pequeños problemas en grandes fracasos.
 
----
+------------------------------------------------------------------------
 
-### Clúster 3: **"Los que luchan y avanzan (Don Ramón)"**
+### Clúster 3: "Los que luchan y avanzan (Don Ramón)"
 
 ![](https://media.cnnchile.com/sites/4/2023/04/FuRcbhOWcAECAK3-e1682426942649-736x400.jpeg){fig-align="center" width="452"}
 
-- **Analogía:**  
-  Como Don Ramón, estos municipios representan la lucha constante por salir adelante. Cada mejora, aunque pequeña, es motivo de orgullo y esperanza, aunque las barreras estructurales limitan el progreso.
-- **Ingresos promedio:** \$58,372 trimestrales.
-- **Desigualdad:** Moderada (GINI: 0.36).
-- **Lo que se vive aquí:**
-  - Un $15.3\%$ siente que la economía personal no va bien, y casi la mitad ($49.6\%$) tiene restricciones en su consumo.
-  - Sin embargo, pequeños avances en los ingresos son valorados como grandes logros.
+-   **Analogía:**\
+    Como Don Ramón, estos municipios representan la lucha constante por salir adelante. Cada mejora, aunque pequeña, es motivo de orgullo y esperanza, aunque las barreras estructurales limitan el progreso.
+-   **Ingresos promedio:** $\$58,372$ trimestrales.
+-   **Desigualdad:** Moderada (GINI: $0.36$).
+-   **Lo que se vive aquí:**
+    -   Un $15.3\%$ siente que la economía personal no va bien, y casi la mitad ($49.6\%$) tiene restricciones en su consumo.
+    -   Sin embargo, pequeños avances en los ingresos son valorados como grandes logros.
 
-📌 **¿Qué pasa aquí?**  
+📌 **¿Qué pasa aquí?**\
 Estos municipios representan la fuerza trabajadora. Aunque las barreras estructurales limitan su progreso, hay esperanza y resiliencia en cada mejora.
 
----
+------------------------------------------------------------------------
 
-### Clúster 4: **"Los que sobreviven con esperanza (El Chavo)"**
+### Clúster 4: "Los que sobreviven con esperanza (El Chavo)"
 
 ![](https://cdn.milenio.com/uploads/media/2020/10/08/chavo-personaje-creado-roberto-gomez_131_24_1658_1032.jpeg){fig-align="center" width="346"}
 
-- **Analogía:**  
-  Como el Chavo, estos municipios viven en una economía de subsistencia, enfrentando grandes desafíos diarios con resiliencia. Las expectativas son bajas, lo que permite manejar mejor las dificultades.
-- **Ingresos promedio:** \$41,258 trimestrales.
-- **Desigualdad:** Baja (GINI: 0.34).
-- **Lo que se vive aquí:**
-  - Un alarmante $63\%$ enfrenta consumo restringido, y un $23\%$ tiene percepciones económicas negativas, la cifra más alta entre todos los clústers.
-  - Las barreras estructurales dificultan cambios significativos en el bienestar.
+-   **Analogía:**\
+    Como el Chavo, estos municipios viven en una economía de subsistencia, enfrentando grandes desafíos diarios con resiliencia. Las expectativas son bajas, lo que permite manejar mejor las dificultades.
+-   **Ingresos promedio:** $\$41,258$ trimestrales.
+-   **Desigualdad:** Baja (GINI: $0.34$).
+-   **Lo que se vive aquí:**
+    -   Un alarmante $63\%$ enfrenta consumo restringido, y un $23\%$ tiene percepciones económicas negativas, la cifra más alta entre todos los clústers.
+    -   Las barreras estructurales dificultan cambios significativos en el bienestar.
 
-📌 **¿Qué pasa aquí?**  
+📌 **¿Qué pasa aquí?**\
 La economía de estos municipios es de pura subsistencia. Las expectativas son bajas, lo que ayuda a manejar la realidad diaria, pero también perpetúa la falta de progreso.
 
----
+------------------------------------------------------------------------
 
-# **Municipios Destacados: Historias de Desigualdad y Progreso**
+# Municipios Destacados: Historias de Desigualdad y Progreso
 
 Cada municipio es un reflejo de las dinámicas sociales y económicas de su región. A través de estos ejemplos, exploramos cómo la desigualdad y el crecimiento impactan no solo los números, sino la vida cotidiana de las personas.
 
----
+------------------------------------------------------------------------
 
-## **Los que están avanzando: Municipios con Decrecimiento del GINI**
+## Los que están avanzando: Municipios con Decrecimiento del GINI
 
-### **San Pedro Garza García: La élite en busca de equilibrio**  
-- **Región:** Norte  
-- **Clúster:** 1 - Los que tienen, pero quieren más  
-- **Desigualdad:** Reducción significativa del GINI (-0.208), aunque persiste una brecha alta (\$235,056 entre decil 10 y 1).  
-- **Consumo y percepciones:**
-  - Consumo positivo: 26.70%.
-  - Consumo restringido: 48.46%.
-  - Percepciones personales positivas: 34.53%.
-  - Percepciones nacionales negativas: 26.67%.
+### San Pedro Garza García: La élite en busca de equilibrio
 
-📌 **Historia:**  
-Como Doña Florinda, San Pedro disfruta de un estatus privilegiado, pero las comparaciones internas generan tensiones. Aunque las percepciones personales son positivas (34.53\%), las desigualdades internas persisten.  
+-   **Región:** Norte\
+-   **Clúster:** 1 - Los que tienen, pero quieren más\
+-   **Desigualdad:** Reducción significativa del GINI ($-0.208$), aunque persiste una brecha alta ($\$235,056$ entre decil 10 y 1).\
+-   **Consumo y percepciones:**
+    -   Consumo positivo: $26.70\%$.
+    -   Consumo restringido: $48.46\%$.
+    -   Percepciones personales positivas: $34.53\%$.
+    -   Percepciones nacionales negativas: $26.67\%$.
+
+📌 **Historia:**\
+Como Doña Florinda, San Pedro disfruta de un estatus privilegiado, pero las comparaciones internas generan tensiones. Aunque las percepciones personales son positivas ($34.53\%$), las desigualdades internas persisten.
 
 San Pedro Garza García es el ícono del éxito económico en el norte del país. Aquí, el lujo y la abundancia son comunes, pero el progreso en la distribución de ingresos no ha sido suficiente para cerrar la brecha entre los más ricos y los más vulnerables. Aunque las familias de ingresos altos disfrutan de estabilidad, las tensiones sociales siguen presentes. Este municipio simboliza una lucha constante por mantener un equilibrio en un entorno donde la riqueza no siempre significa bienestar.
 
----
+------------------------------------------------------------------------
 
-### **Tecámac: El esfuerzo colectivo por salir adelante**  
-- **Región:** Centro  
-- **Clúster:** 3 - Los que luchan y avanzan  
-- **Desigualdad:** Mejora significativa (GINI: -0.206), reduciendo la brecha a \$84,382.  
-- **Consumo y percepciones:**
-  - Consumo positivo: 27.07%.
-  - Consumo restringido: 62.41%.
-  - Percepciones personales positivas: 38.22%.
-  - Percepciones nacionales negativas: 25.60%.
+### Tecámac: El esfuerzo colectivo por salir adelante
 
-📌 **Historia:**  
+-   **Región:** Centro\
+
+<!-- -->
+
+-   **Clúster:** 3 - Los que luchan y avanzan\
+-   **Desigualdad:** Mejora significativa (GINI: $-0.206$), reduciendo la brecha a $\$84,382$.\
+-   **Consumo y percepciones:**
+    -   Consumo positivo: $27.07\%$.
+    -   Consumo restringido: $62.41\%$.
+    -   Percepciones personales positivas: $38.22\%$.
+    -   Percepciones nacionales negativas: $25.60\%$.
+
+📌 **Historia:**\
 Como Don Ramón, Tecámac simboliza la lucha diaria. El decrecimiento de la desigualdad ha traído esperanza, pero el alto consumo restringido ($62.41\%$) refleja los retos estructurales que aún enfrentan sus habitantes.
- 
+
 Tecámac representa a la clase trabajadora que nunca se rinde. Aquí, las familias valoran cada pequeño avance, aunque saben que el camino es largo. El decrecimiento de la desigualdad ha tenido un impacto positivo en cómo las personas ven su situación, pero el alto nivel de consumo restringido refleja la presión constante por cubrir necesidades básicas. Este municipio es un recordatorio del poder del esfuerzo colectivo para construir un futuro mejor.
 
----
+------------------------------------------------------------------------
 
-## **Los que enfrentan retos: Municipios con Crecimiento del GINI**
+## Los que enfrentan retos: Municipios con Crecimiento del GINI
 
-### **Cuautitlán Izcalli: La desigualdad como desafío**  
-- **Región:** Centro  
-- **Clúster:** 2 - Los reyes inquietos  
-- **Desigualdad:** Crecimiento del GINI (+0.313), con una brecha amplia (\$290,434 entre decil 10 y 1).  
-- **Consumo y percepciones:**
-  - Consumo positivo: 20.23%.
-  - Consumo restringido: 49.78%.
-  - Percepciones personales positivas: 27.84%.
-  - Percepciones nacionales negativas: 23.07%.
+### Cuautitlán Izcalli: La desigualdad como desafío
 
-📌 **Historia:**  
+-   **Región:** Centro\
+-   **Clúster:** 2 - Los reyes inquietos\
+-   **Desigualdad:** Crecimiento del GINI ($+0.313$), con una brecha amplia ($\$290,434$ entre decil 10 y 1).\
+-   **Consumo y percepciones:**
+    -   Consumo positivo: $20.23\%$.
+    -   Consumo restringido: $49.78\%$.
+    -   Percepciones personales positivas: $27.84\%$.
+    -   Percepciones nacionales negativas: $23.07\%$.
+
+📌 **Historia:**\
 Como Quico, Cuautitlán Izcalli tiene altos ingresos, pero su desigualdad interna genera tensiones sociales significativas. La presión por mantener expectativas altas crea insatisfacción y conflictos internos.
- 
+
 Cuautitlán Izcalli es un claro ejemplo de cómo la desigualdad puede erosionar el bienestar social. Aunque muchas familias prosperan, la alta concentración de ingresos en los niveles superiores genera tensiones entre los que tienen más y los que apenas sobreviven. Este municipio refleja las complejidades de la élite económica, donde el éxito no garantiza estabilidad emocional o satisfacción comunitaria.
 
----
+------------------------------------------------------------------------
 
-### **Acolman: Sobrevivir en la base económica**  
-- **Región:** Centro  
-- **Clúster:** 4 - Los que sobreviven con esperanza  
-- **Desigualdad:** Crecimiento leve del GINI (+0.181), con una brecha menor (\$79,985).  
-- **Consumo y percepciones:**
-  - Consumo positivo: 14.46%.
-  - Consumo restringido: 66.95%.
-  - Percepciones personales positivas: 21.98%.
-  - Percepciones nacionales negativas: 27.08%.
+### Acolman: Sobrevivir en la base económica
 
-📌 **Historia:**  
+-   **Región:** Centro\
+-   **Clúster:** 4 - Los que sobreviven con esperanza\
+-   **Desigualdad:** Crecimiento leve del GINI ($+0.181$), con una brecha menor ($\$79,985$).\
+-   **Consumo y percepciones:**
+    -   Consumo positivo: $14.46\%$.
+    -   Consumo restringido: $66.95\%$.
+    -   Percepciones personales positivas: $21.98\%$.
+    -   Percepciones nacionales negativas: $27.08\%$.
+
+📌 **Historia:**\
 Acolman enfrenta las mismas dificultades que el Chavo. Aunque la desigualdad es menor que en otros municipios, la economía de subsistencia y el alto consumo restringido ($66.95\%$) dificultan el progreso.
 
 En Acolman, las expectativas modestas ayudan a las familias a enfrentar la desigualdad creciente. Este municipio está atrapado en una economía de subsistencia, donde el día a día es una lucha por cubrir lo básico. Aunque las tensiones son altas, Acolman demuestra la fortaleza de las comunidades en los momentos más difíciles.
 
----
+------------------------------------------------------------------------
 
 ## Reflexión: Una economía como la vecindad del Chavo
 
 La vecindad del Chavo nos recuerda que, aunque cada clúster tiene su propia dinámica, todos están conectados. Las comparaciones sociales, las desigualdades y las aspiraciones moldean las percepciones del bienestar. Construir un México más justo requiere reconocer estas conexiones y trabajar juntos para reducir las brechas.
 
-- **El progreso es posible:** Municipios como Tecámac y San Pedro Garza García nos muestran que las políticas de redistribución pueden tener un impacto positivo en las percepciones personales.
-- **La desigualdad amplifica tensiones:** Casos como Cuautitlán Izcalli destacan la necesidad de abordar la concentración de riqueza para reducir conflictos sociales.
-- **Expectativas y bienestar:** La historia de municipios como Tlajomulco refleja cómo las expectativas elevadas pueden dificultar la satisfacción económica, incluso en contextos de abundancia.
+-   **El progreso es posible:** Municipios como Tecámac y San Pedro Garza García nos muestran que las políticas de redistribución pueden tener un impacto positivo en las percepciones personales.
+-   **La desigualdad amplifica tensiones:** Casos como Cuautitlán Izcalli destacan la necesidad de abordar la concentración de riqueza para reducir conflictos sociales.
+-   **Expectativas y bienestar:** La historia de municipios como Tlajomulco refleja cómo las expectativas elevadas pueden dificultar la satisfacción económica, incluso en contextos de abundancia.
 
-** "Aunque vivamos en diferentes clústers, todos colgamos la ropa en el mismo tendedero. El progreso de uno puede ser la base para el bienestar de todos."
+\*\* "Aunque vivamos en diferentes clústers, todos colgamos la ropa en el mismo tendedero. El progreso de uno puede ser la base para el bienestar de todos."
 
----------
+------------------------------------------------------------------------
 
 ## Conclusión Final: El bienestar percibido está enraizado en el contexto más que en el ingreso absoluto
 
@@ -197,56 +204,55 @@ La percepción del bienestar económico no depende solo de los ingresos, sino de
 
 Para transformar las percepciones económicas y avanzar hacia un país más equitativo, es esencial abordar tanto la desigualdad objetiva como las expectativas subjetivas. Estas recomendaciones están diseñadas para impactar positivamente en cada clúster identificado.
 
----
+------------------------------------------------------------------------
 
-### 1. **Reducir la desigualdad: Nivelando el terreno**
+### 1. Reducir la desigualdad: Nivelando el terreno
 
-- **Políticas fiscales progresivas:** Implementar un sistema impositivo más justo para redistribuir la riqueza, beneficiando a municipios como **Cuautitlán Izcalli** y **San Pedro Garza García**, donde la desigualdad es extrema.
-- **Programas de transferencia directa:** Incrementar apoyos económicos para los deciles más bajos, priorizando municipios como **Acolman** y **Tecámac**.
+-   **Políticas fiscales progresivas:** Implementar un sistema impositivo más justo para redistribuir la riqueza, beneficiando a municipios como **Cuautitlán Izcalli** y **San Pedro Garza García**, donde la desigualdad es extrema.
+-   **Programas de transferencia directa:** Incrementar apoyos económicos para los deciles más bajos, priorizando municipios como **Acolman** y **Tecámac**.
 
 📌 **Impacto esperado:** Menores tensiones sociales y una percepción más positiva del entorno económico.
 
----
+------------------------------------------------------------------------
 
-### 2. **Fomentar el progreso colectivo: Redefiniendo el éxito**
+### 2. Fomentar el progreso colectivo: Redefiniendo el éxito
 
-- **Educación financiera comunitaria:** Implementar programas que enseñen a las familias a manejar sus finanzas y a valorar los pequeños logros, con especial atención en municipios como **Tlajomulco de Zúñiga** y **Tecámac**.
-- **Campañas de concientización:** Destacar el progreso conjunto sobre la competencia social para reducir tensiones y mejorar la cohesión comunitaria.
+-   **Educación financiera comunitaria:** Implementar programas que enseñen a las familias a manejar sus finanzas y a valorar los pequeños logros, con especial atención en municipios como **Tlajomulco de Zúñiga** y **Tecámac**.
+-   **Campañas de concientización:** Destacar el progreso conjunto sobre la competencia social para reducir tensiones y mejorar la cohesión comunitaria.
 
 📌 **Impacto esperado:** Comunidades más unidas y reducción en las comparaciones negativas.
 
----
+------------------------------------------------------------------------
 
-### 3. **Fortalecer el consumo positivo: Garantizando lo esencial**
+### 3. Fortalecer el consumo positivo: Garantizando lo esencial
 
-- **Acceso a servicios básicos:** Ampliar la infraestructura para agua, electricidad y transporte en municipios como **Acolman**, donde el consumo restringido es alarmantemente alto.
-- **Subsidios al consumo estratégico:** Incentivar inversiones familiares en educación, salud y ahorro para mejorar el bienestar a largo plazo.
+-   **Acceso a servicios básicos:** Ampliar la infraestructura para agua, electricidad y transporte en municipios como **Acolman**, donde el consumo restringido es alarmantemente alto.
+-   **Subsidios al consumo estratégico:** Incentivar inversiones familiares en educación, salud y ahorro para mejorar el bienestar a largo plazo.
 
 📌 **Impacto esperado:** Mayor libertad económica y condiciones de vida más dignas.
 
----
+------------------------------------------------------------------------
 
-### 4. **Promover estabilidad económica: Construyendo confianza**
+### 4. Promover estabilidad económica: Construyendo confianza
 
-- **Empleo digno y sostenido:** Generar empleos estables con salarios competitivos en regiones dinámicas como el **Norte**, destacando municipios como **San Pedro Garza García**.
-- **Políticas económicas a largo plazo:** Diseñar programas que trasciendan administraciones para generar confianza en la población y disminuir la incertidumbre económica.
+-   **Empleo digno y sostenido:** Generar empleos estables con salarios competitivos en regiones dinámicas como el **Norte**, destacando municipios como **San Pedro Garza García**.
+-   **Políticas económicas a largo plazo:** Diseñar programas que trasciendan administraciones para generar confianza en la población y disminuir la incertidumbre económica.
 
 📌 **Impacto esperado:** Incremento en percepciones económicas positivas, tanto a nivel personal como nacional.
 
----
+------------------------------------------------------------------------
 
-### 5. **Ajustar expectativas: Construyendo un nuevo estándar de bienestar**
+### 5. Ajustar expectativas: Construyendo un nuevo estándar de bienestar
 
-- **Redefinir el bienestar económico:** Promover una narrativa cultural que valore la calidad de vida y el progreso sostenible por encima de la riqueza material.
-- **Plataformas participativas:** Involucrar a las comunidades en la creación de políticas públicas para alinear expectativas con la realidad local.
+-   **Redefinir el bienestar económico:** Promover una narrativa cultural que valore la calidad de vida y el progreso sostenible por encima de la riqueza material.
+-   **Plataformas participativas:** Involucrar a las comunidades en la creación de políticas públicas para alinear expectativas con la realidad local.
 
 📌 **Impacto esperado:** Satisfacción general más alta y resiliencia frente a desafíos económicos.
 
----
+------------------------------------------------------------------------
 
 ## Reflexión Final: Una economía con rostro humano
 
 El bienestar no es solo una cuestión de ingresos, sino de cómo las personas perciben su entorno y ajustan sus expectativas. Transformar estas percepciones requiere políticas públicas que no solo reduzcan la desigualdad, sino que también promuevan oportunidades equitativas para todos.
 
 **Construir un México más justo implica mirar más allá de los números y trabajar en un progreso inclusivo que priorice la dignidad y la estabilidad de las personas.**
-
