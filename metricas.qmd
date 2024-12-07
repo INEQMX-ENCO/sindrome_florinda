@@ -5,11 +5,11 @@ jupyter: python3
 
 A continuación, se presenta una lista jerárquica de métricas organizadas de lo más relevante a lo contextual, orientadas a construir una narrativa clara y efectiva sobre los datos analizados.
 
-## **Métricas de Impacto Principal**
+## Métricas de Impacto Principal
 
 Estas métricas representan el núcleo de la narrativa y destacan los resultados clave:
 
-### **Índices de Percepción Optimista, Pesimista y Mixta**
+### Índices de Percepción Optimista, Pesimista y Mixta
 
 -   **Definición**: Promedios ponderados de respuestas a preguntas clasificadas según rangos de GINI para agrupar percepciones.
 
@@ -31,7 +31,7 @@ Estas métricas representan el núcleo de la narrativa y destacan los resultados
 
 -   **Importancia**: Establecen los ejes principales del análisis y las narrativas de cambio o estabilidad en las percepciones.
 
-### **GINI por Categorías Clave**
+### GINI por Categorías Clave
 
 -   **Definición**: Medida de desigualdad en la distribución de respuestas en preguntas categorizadas.
 
@@ -53,11 +53,11 @@ Estas métricas representan el núcleo de la narrativa y destacan los resultados
 
 -   **Importancia**: Proporciona contexto sobre la homogeneidad o heterogeneidad de las percepciones.
 
-## **Métricas de Contexto y Comparación**
+## Métricas de Contexto y Comparación
 
 Estas métricas brindan información adicional que complementa los resultados principales y ayudan a situar los hallazgos en un marco más amplio.
 
-### **Promedio General de Respuestas por Pregunta**
+### Promedio General de Respuestas por Pregunta
 
 -   **Definición**: Media simple de las respuestas para cada pregunta.
 
@@ -71,7 +71,7 @@ Estas métricas brindan información adicional que complementa los resultados pr
 
 -   **Importancia**: Refuerza los índices principales al contrastar tendencias generales y específicas.
 
-### **Rango de Respuestas**
+### Rango de Respuestas
 
 -   **Definición**: Diferencia entre los valores mínimo y máximo de las respuestas por pregunta.
 
